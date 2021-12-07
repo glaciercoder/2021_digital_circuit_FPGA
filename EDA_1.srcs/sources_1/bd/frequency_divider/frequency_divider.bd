@@ -1,0 +1,101 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x65AAD72865AAD728",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../EDA_1.gen/sources_1/bd/frequency_divider",
+      "name": "frequency_divider",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "decimal_counter_0": "",
+      "xup_nor4_0": ""
+    },
+    "ports": {
+      "CLK": {
+        "direction": "I"
+      },
+      "GND": {
+        "direction": "I"
+      },
+      "y": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "decimal_counter_0": {
+        "vlnv": "xilinx.com:XUP:decimal_counter:1.0",
+        "xci_name": "frequency_divider_decimal_counter_0_1",
+        "xci_path": "ip\\frequency_divider_decimal_counter_0_1_2\\frequency_divider_decimal_counter_0_1.xci",
+        "inst_hier_path": "decimal_counter_0",
+        "parameters": {
+          "DELAY": {
+            "value": "0"
+          }
+        }
+      },
+      "xup_nor4_0": {
+        "vlnv": "xilinx.com:xup:xup_nor4:1.0",
+        "xci_name": "frequency_divider_xup_nor4_0_1",
+        "xci_path": "ip\\frequency_divider_xup_nor4_0_1_2\\frequency_divider_xup_nor4_0_1.xci",
+        "inst_hier_path": "xup_nor4_0",
+        "parameters": {
+          "DELAY": {
+            "value": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "CLK_1": {
+        "ports": [
+          "CLK",
+          "decimal_counter_0/cp1_n"
+        ]
+      },
+      "GND_1": {
+        "ports": [
+          "GND",
+          "decimal_counter_0/r9_2",
+          "decimal_counter_0/r9_1",
+          "decimal_counter_0/r0_2",
+          "decimal_counter_0/r0_1"
+        ]
+      },
+      "decimal_counter_0_qa": {
+        "ports": [
+          "decimal_counter_0/qa",
+          "decimal_counter_0/cp2_n",
+          "xup_nor4_0/a"
+        ]
+      },
+      "decimal_counter_0_qb": {
+        "ports": [
+          "decimal_counter_0/qb",
+          "xup_nor4_0/b"
+        ]
+      },
+      "decimal_counter_0_qc": {
+        "ports": [
+          "decimal_counter_0/qc",
+          "xup_nor4_0/c"
+        ]
+      },
+      "decimal_counter_0_qd": {
+        "ports": [
+          "decimal_counter_0/qd",
+          "xup_nor4_0/d"
+        ]
+      },
+      "xup_nor4_0_y": {
+        "ports": [
+          "xup_nor4_0/y",
+          "y"
+        ]
+      }
+    }
+  }
+}

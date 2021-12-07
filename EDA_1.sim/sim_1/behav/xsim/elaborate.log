@@ -1,0 +1,27 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto d823586646b24e51a490db93a706d056 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Calculator_display_wrapper_tb_behav xil_defaultlib.Calculator_display_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <Adder_5_Adder_1_0_1> not found while processing module instance <Adder_1_0> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ip/Calculator_display_Signed_calculator_0_0_3/ipshared/5048/sim/Adder_5.v:85]
+ERROR: [VRFC 10-2063] Module <Signed_calculator_input_5_complementor_0_1> not found while processing module instance <input_5_complementor_0> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/2bcf/sim/Signed_calculator.v:103]
+ERROR: [VRFC 10-2063] Module <Signed_calculator_input_5_complementor_0_2> not found while processing module instance <input_5_complementor_1> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/2bcf/sim/Signed_calculator.v:116]
+ERROR: [VRFC 10-2063] Module <Signed_calculator_input_5_complementor_2_0> not found while processing module instance <input_5_complementor_2> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/2bcf/sim/Signed_calculator.v:129]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_BCD2SEG7_0_0> not found while processing module instance <BCD2SEG7_0> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:149]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_BCD2SEG7_0_1> not found while processing module instance <BCD2SEG7_1> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:163]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_BCD2SEG7_1_0> not found while processing module instance <BCD2SEG7_2> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:177]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_BCD2SEG7_2_0> not found while processing module instance <BCD2SEG7_3> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:191]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_display_select_0_2> not found while processing module instance <display_select_2> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:225]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_display_select_2_0> not found while processing module instance <display_select_3> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:235]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_display_select_4_1> not found while processing module instance <display_select_4> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:245]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_display_select_4_0> not found while processing module instance <display_select_5> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:255]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_display_select_5_0> not found while processing module instance <display_select_6> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:265]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_xup_and2_0_2> not found while processing module instance <xup_and2_0> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:275]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_xup_and2_0_3> not found while processing module instance <xup_and2_1> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:279]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_xup_and2_0_4> not found while processing module instance <xup_and2_2> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:283]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_xup_and2_0_5> not found while processing module instance <xup_and2_3> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:287]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_xup_and2_3_0> not found while processing module instance <xup_and2_4> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:291]
+ERROR: [VRFC 10-2063] Module <binary_2_segment_xup_and3_0_1> not found while processing module instance <xup_and3_0> [C:/Users/weibc/Desktop/EDA_1/EDA_1.ip_user_files/bd/Calculator_display/ipshared/f2b6/sim/binary_2_segment.v:295]
+INFO: [#UNDEF] Sorry, too many errors..
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

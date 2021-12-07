@@ -1,0 +1,194 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x85E37EBC85E37EBC",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../EDA_1.gen/sources_1/bd/Adder_4",
+      "name": "Adder_4",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Adder_1_0": "",
+      "Adder_1_1": "",
+      "Adder_1_2": "",
+      "Adder_1_3": ""
+    },
+    "ports": {
+      "CI": {
+        "direction": "I"
+      },
+      "a1": {
+        "direction": "I"
+      },
+      "a2": {
+        "direction": "I"
+      },
+      "a3": {
+        "direction": "I"
+      },
+      "a4": {
+        "direction": "I"
+      },
+      "b1": {
+        "direction": "I"
+      },
+      "b2": {
+        "direction": "I"
+      },
+      "b3": {
+        "direction": "I"
+      },
+      "b4": {
+        "direction": "I"
+      },
+      "S1": {
+        "direction": "O"
+      },
+      "S2": {
+        "direction": "O"
+      },
+      "S3": {
+        "direction": "O"
+      },
+      "S4": {
+        "direction": "O"
+      },
+      "CO": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "Adder_1_0": {
+        "vlnv": "xilinx.com:user:Adder_1:1.0",
+        "xci_name": "Adder_4_Adder_1_0_4",
+        "xci_path": "ip\\Adder_4_Adder_1_0_4_3\\Adder_4_Adder_1_0_4.xci",
+        "inst_hier_path": "Adder_1_0"
+      },
+      "Adder_1_1": {
+        "vlnv": "xilinx.com:user:Adder_1:1.0",
+        "xci_name": "Adder_4_Adder_1_1_0",
+        "xci_path": "ip\\Adder_4_Adder_1_1_0_3\\Adder_4_Adder_1_1_0.xci",
+        "inst_hier_path": "Adder_1_1"
+      },
+      "Adder_1_2": {
+        "vlnv": "xilinx.com:user:Adder_1:1.0",
+        "xci_name": "Adder_4_Adder_1_2_0",
+        "xci_path": "ip\\Adder_4_Adder_1_2_0_3\\Adder_4_Adder_1_2_0.xci",
+        "inst_hier_path": "Adder_1_2"
+      },
+      "Adder_1_3": {
+        "vlnv": "xilinx.com:user:Adder_1:1.0",
+        "xci_name": "Adder_4_Adder_1_3_0",
+        "xci_path": "ip\\Adder_4_Adder_1_3_0_3\\Adder_4_Adder_1_3_0.xci",
+        "inst_hier_path": "Adder_1_3"
+      }
+    },
+    "nets": {
+      "Adder_1_0_CO": {
+        "ports": [
+          "Adder_1_0/CO",
+          "Adder_1_1/CI"
+        ]
+      },
+      "Adder_1_0_S": {
+        "ports": [
+          "Adder_1_0/S",
+          "S1"
+        ]
+      },
+      "Adder_1_1_CO": {
+        "ports": [
+          "Adder_1_1/CO",
+          "Adder_1_2/CI"
+        ]
+      },
+      "Adder_1_1_S": {
+        "ports": [
+          "Adder_1_1/S",
+          "S2"
+        ]
+      },
+      "Adder_1_2_CO": {
+        "ports": [
+          "Adder_1_2/CO",
+          "Adder_1_3/CI"
+        ]
+      },
+      "Adder_1_2_S": {
+        "ports": [
+          "Adder_1_2/S",
+          "S3"
+        ]
+      },
+      "Adder_1_3_CO": {
+        "ports": [
+          "Adder_1_3/CO",
+          "CO"
+        ]
+      },
+      "Adder_1_3_S": {
+        "ports": [
+          "Adder_1_3/S",
+          "S4"
+        ]
+      },
+      "CI_1": {
+        "ports": [
+          "CI",
+          "Adder_1_0/CI"
+        ]
+      },
+      "a1_1": {
+        "ports": [
+          "a1",
+          "Adder_1_0/a"
+        ]
+      },
+      "a2_1": {
+        "ports": [
+          "a2",
+          "Adder_1_1/a"
+        ]
+      },
+      "a3_1": {
+        "ports": [
+          "a3",
+          "Adder_1_2/a"
+        ]
+      },
+      "a4_1": {
+        "ports": [
+          "a4",
+          "Adder_1_3/a"
+        ]
+      },
+      "b1_1": {
+        "ports": [
+          "b1",
+          "Adder_1_0/b"
+        ]
+      },
+      "b2_1": {
+        "ports": [
+          "b2",
+          "Adder_1_1/b"
+        ]
+      },
+      "b3_1": {
+        "ports": [
+          "b3",
+          "Adder_1_2/b"
+        ]
+      },
+      "b4_1": {
+        "ports": [
+          "b4",
+          "Adder_1_3/b"
+        ]
+      }
+    }
+  }
+}

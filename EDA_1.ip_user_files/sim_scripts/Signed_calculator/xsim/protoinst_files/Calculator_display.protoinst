@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"Calculator_display": {
+			"proto_instances": {
+			}
+		}
+	}
+}

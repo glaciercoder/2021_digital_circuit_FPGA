@@ -1,0 +1,270 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x2ABC264A2ABC264A",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../EDA_1.gen/sources_1/bd/Calculator_display",
+      "name": "Calculator_display",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Signed_calculator_0": "",
+      "binary_2_segment_0": "",
+      "total_frequency_divi_0": ""
+    },
+    "ports": {
+      "GND": {
+        "direction": "I"
+      },
+      "Sign_a": {
+        "direction": "I"
+      },
+      "Sign_b": {
+        "direction": "I"
+      },
+      "a1": {
+        "direction": "I"
+      },
+      "a2": {
+        "direction": "I"
+      },
+      "a3": {
+        "direction": "I"
+      },
+      "b1": {
+        "direction": "I"
+      },
+      "b2": {
+        "direction": "I"
+      },
+      "b3": {
+        "direction": "I"
+      },
+      "Sign": {
+        "direction": "O"
+      },
+      "CLK": {
+        "direction": "I"
+      },
+      "a": {
+        "direction": "O"
+      },
+      "b": {
+        "direction": "O"
+      },
+      "c": {
+        "direction": "O"
+      },
+      "d": {
+        "direction": "O"
+      },
+      "e": {
+        "direction": "O"
+      },
+      "f": {
+        "direction": "O"
+      },
+      "g": {
+        "direction": "O"
+      },
+      "VDD": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "Signed_calculator_0": {
+        "vlnv": "xilinx.com:user:Signed_calculator:1.0",
+        "xci_name": "Calculator_display_Signed_calculator_0_0",
+        "xci_path": "ip\\Calculator_display_Signed_calculator_0_0_3\\Calculator_display_Signed_calculator_0_0.xci",
+        "inst_hier_path": "Signed_calculator_0"
+      },
+      "binary_2_segment_0": {
+        "vlnv": "xilinx.com:user:binary_2_segment:1.0",
+        "xci_name": "Calculator_display_binary_2_segment_0_0",
+        "xci_path": "ip\\Calculator_display_binary_2_segment_0_0_2\\Calculator_display_binary_2_segment_0_0.xci",
+        "inst_hier_path": "binary_2_segment_0"
+      },
+      "total_frequency_divi_0": {
+        "vlnv": "xilinx.com:user:total_frequency_divider:1.0",
+        "xci_name": "Calculator_display_total_frequency_divi_0_0",
+        "xci_path": "ip\\Calculator_display_total_frequency_divi_0_0_1\\Calculator_display_total_frequency_divi_0_0.xci",
+        "inst_hier_path": "total_frequency_divi_0"
+      }
+    },
+    "nets": {
+      "CLK_1": {
+        "ports": [
+          "CLK",
+          "total_frequency_divi_0/CLK"
+        ]
+      },
+      "GND_1": {
+        "ports": [
+          "GND",
+          "Signed_calculator_0/GND",
+          "binary_2_segment_0/GND",
+          "total_frequency_divi_0/GND"
+        ]
+      },
+      "Sign_a_1": {
+        "ports": [
+          "Sign_a",
+          "Signed_calculator_0/Sign_a"
+        ]
+      },
+      "Sign_b_1": {
+        "ports": [
+          "Sign_b",
+          "Signed_calculator_0/Sign_b"
+        ]
+      },
+      "Signed_calculator_0_S1": {
+        "ports": [
+          "Signed_calculator_0/S1",
+          "binary_2_segment_0/S1"
+        ]
+      },
+      "Signed_calculator_0_S2": {
+        "ports": [
+          "Signed_calculator_0/S2",
+          "binary_2_segment_0/S2"
+        ]
+      },
+      "Signed_calculator_0_S3": {
+        "ports": [
+          "Signed_calculator_0/S3",
+          "binary_2_segment_0/S3"
+        ]
+      },
+      "Signed_calculator_0_S4": {
+        "ports": [
+          "Signed_calculator_0/S4",
+          "binary_2_segment_0/S4"
+        ]
+      },
+      "Signed_calculator_0_Sign": {
+        "ports": [
+          "Signed_calculator_0/Sign",
+          "Sign"
+        ]
+      },
+      "VDD_1": {
+        "ports": [
+          "VDD",
+          "binary_2_segment_0/VDD"
+        ]
+      },
+      "a1_1": {
+        "ports": [
+          "a1",
+          "Signed_calculator_0/a1",
+          "binary_2_segment_0/a1"
+        ]
+      },
+      "a2_1": {
+        "ports": [
+          "a2",
+          "Signed_calculator_0/a2",
+          "binary_2_segment_0/a2"
+        ]
+      },
+      "a3_1": {
+        "ports": [
+          "a3",
+          "Signed_calculator_0/a3",
+          "binary_2_segment_0/a3"
+        ]
+      },
+      "b1_1": {
+        "ports": [
+          "b1",
+          "Signed_calculator_0/b1",
+          "binary_2_segment_0/b1"
+        ]
+      },
+      "b2_1": {
+        "ports": [
+          "b2",
+          "Signed_calculator_0/b2",
+          "binary_2_segment_0/b2"
+        ]
+      },
+      "b3_1": {
+        "ports": [
+          "b3",
+          "Signed_calculator_0/b3",
+          "binary_2_segment_0/b3"
+        ]
+      },
+      "binary_2_segment_0_a": {
+        "ports": [
+          "binary_2_segment_0/a",
+          "a"
+        ]
+      },
+      "binary_2_segment_0_b": {
+        "ports": [
+          "binary_2_segment_0/b",
+          "b"
+        ]
+      },
+      "binary_2_segment_0_c": {
+        "ports": [
+          "binary_2_segment_0/c",
+          "c"
+        ]
+      },
+      "binary_2_segment_0_d": {
+        "ports": [
+          "binary_2_segment_0/d",
+          "d"
+        ]
+      },
+      "binary_2_segment_0_e": {
+        "ports": [
+          "binary_2_segment_0/e",
+          "e"
+        ]
+      },
+      "binary_2_segment_0_f": {
+        "ports": [
+          "binary_2_segment_0/f",
+          "f"
+        ]
+      },
+      "binary_2_segment_0_g": {
+        "ports": [
+          "binary_2_segment_0/g",
+          "g"
+        ]
+      },
+      "total_frequency_divi_0_AN0": {
+        "ports": [
+          "total_frequency_divi_0/AN0",
+          "binary_2_segment_0/AN0"
+        ]
+      },
+      "total_frequency_divi_0_AN1": {
+        "ports": [
+          "total_frequency_divi_0/AN1",
+          "binary_2_segment_0/AN1"
+        ]
+      },
+      "total_frequency_divi_0_AN2": {
+        "ports": [
+          "total_frequency_divi_0/AN2",
+          "binary_2_segment_0/AN2"
+        ]
+      },
+      "total_frequency_divi_0_AN3": {
+        "ports": [
+          "total_frequency_divi_0/AN3",
+          "binary_2_segment_0/AN3"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../EDA_1.ip_user_files/bd/Calculator_display/sim/Calculator_display.v" \
+"../../../../EDA_1.gen/sources_1/bd/Calculator_display/hdl/Calculator_display_wrapper.v" \
+"../../../../EDA_1.srcs/sim_1/new/Calculator_display_wrapper_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

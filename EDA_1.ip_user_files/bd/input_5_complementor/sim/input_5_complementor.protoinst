@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"input_5_complementor": {
+			"proto_instances": {
+			}
+		}
+	}
+}

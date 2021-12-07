@@ -1,0 +1,58 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Sun Nov 14 15:57:19 2021
+| Host         : DESKTOP-1HKRSBO running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Signed_calculator_input_5_complementor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Signed_calculator_input_5_complementor_0_0 (xilinx.com:user:input_5_complementor:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Sun Nov 14 14:02:32 2021
+| Host         : DESKTOP-1HKRSBO running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Signed_calculator_Complementor_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Signed_calculator_Complementor_2_0 (xilinx.com:user:Complementor:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Sun Nov 14 14:02:32 2021
+| Host         : DESKTOP-1HKRSBO running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Signed_calculator_Complementor_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Signed_calculator_Complementor_0_0 (xilinx.com:user:Complementor:1.0) from (Rev. 1) to (Rev. 2)
+

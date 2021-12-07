@@ -1,0 +1,153 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xC454D979C454D979",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../EDA_1.gen/sources_1/bd/total_frequency_divider",
+      "name": "total_frequency_divider",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "frequency_divider_0": "",
+      "frequency_divider_1": "",
+      "frequency_divider_2": "",
+      "frequency_divider_3": "",
+      "frequency_divider_4": "",
+      "frequency_4_divider_0": ""
+    },
+    "ports": {
+      "CLK": {
+        "direction": "I"
+      },
+      "GND": {
+        "direction": "I"
+      },
+      "AN0": {
+        "direction": "O"
+      },
+      "AN1": {
+        "direction": "O"
+      },
+      "AN2": {
+        "direction": "O"
+      },
+      "AN3": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "frequency_divider_0": {
+        "vlnv": "xilinx.com:user:frequency_divider:1.0",
+        "xci_name": "total_frequency_divider_frequency_divider_0_4",
+        "xci_path": "ip\\total_frequency_divider_frequency_divider_0_4\\total_frequency_divider_frequency_divider_0_4.xci",
+        "inst_hier_path": "frequency_divider_0"
+      },
+      "frequency_divider_1": {
+        "vlnv": "xilinx.com:user:frequency_divider:1.0",
+        "xci_name": "total_frequency_divider_frequency_divider_1_0",
+        "xci_path": "ip\\total_frequency_divider_frequency_divider_1_0\\total_frequency_divider_frequency_divider_1_0.xci",
+        "inst_hier_path": "frequency_divider_1"
+      },
+      "frequency_divider_2": {
+        "vlnv": "xilinx.com:user:frequency_divider:1.0",
+        "xci_name": "total_frequency_divider_frequency_divider_2_1",
+        "xci_path": "ip\\total_frequency_divider_frequency_divider_2_1\\total_frequency_divider_frequency_divider_2_1.xci",
+        "inst_hier_path": "frequency_divider_2"
+      },
+      "frequency_divider_3": {
+        "vlnv": "xilinx.com:user:frequency_divider:1.0",
+        "xci_name": "total_frequency_divider_frequency_divider_3_0",
+        "xci_path": "ip\\total_frequency_divider_frequency_divider_3_0\\total_frequency_divider_frequency_divider_3_0.xci",
+        "inst_hier_path": "frequency_divider_3"
+      },
+      "frequency_divider_4": {
+        "vlnv": "xilinx.com:user:frequency_divider:1.0",
+        "xci_name": "total_frequency_divider_frequency_divider_4_1",
+        "xci_path": "ip\\total_frequency_divider_frequency_divider_4_1\\total_frequency_divider_frequency_divider_4_1.xci",
+        "inst_hier_path": "frequency_divider_4"
+      },
+      "frequency_4_divider_0": {
+        "vlnv": "xilinx.com:user:frequency_4_divider:1.0",
+        "xci_name": "total_frequency_divider_frequency_4_divider_0_2",
+        "xci_path": "ip\\total_frequency_divider_frequency_4_divider_0_2\\total_frequency_divider_frequency_4_divider_0_2.xci",
+        "inst_hier_path": "frequency_4_divider_0"
+      }
+    },
+    "nets": {
+      "CLK_1": {
+        "ports": [
+          "CLK",
+          "frequency_divider_0/CLK"
+        ]
+      },
+      "GND_1": {
+        "ports": [
+          "GND",
+          "frequency_divider_0/GND",
+          "frequency_divider_1/GND",
+          "frequency_divider_2/GND",
+          "frequency_divider_3/GND",
+          "frequency_divider_4/GND",
+          "frequency_4_divider_0/GND"
+        ]
+      },
+      "frequency_4_divider_0_AN0": {
+        "ports": [
+          "frequency_4_divider_0/AN0",
+          "AN0"
+        ]
+      },
+      "frequency_4_divider_0_AN1": {
+        "ports": [
+          "frequency_4_divider_0/AN1",
+          "AN1"
+        ]
+      },
+      "frequency_4_divider_0_AN2": {
+        "ports": [
+          "frequency_4_divider_0/AN2",
+          "AN2"
+        ]
+      },
+      "frequency_4_divider_0_AN3": {
+        "ports": [
+          "frequency_4_divider_0/AN3",
+          "AN3"
+        ]
+      },
+      "frequency_divider_0_y": {
+        "ports": [
+          "frequency_divider_0/y",
+          "frequency_divider_1/CLK"
+        ]
+      },
+      "frequency_divider_1_y": {
+        "ports": [
+          "frequency_divider_1/y",
+          "frequency_divider_2/CLK"
+        ]
+      },
+      "frequency_divider_2_y": {
+        "ports": [
+          "frequency_divider_2/y",
+          "frequency_divider_3/CLK"
+        ]
+      },
+      "frequency_divider_3_y": {
+        "ports": [
+          "frequency_divider_3/y",
+          "frequency_divider_4/CLK"
+        ]
+      },
+      "frequency_divider_4_y": {
+        "ports": [
+          "frequency_divider_4/y",
+          "frequency_4_divider_0/CLK"
+        ]
+      }
+    }
+  }
+}

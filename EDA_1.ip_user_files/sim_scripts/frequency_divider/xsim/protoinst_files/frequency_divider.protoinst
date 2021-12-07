@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"frequency_divider": {
+			"proto_instances": {
+			}
+		}
+	}
+}

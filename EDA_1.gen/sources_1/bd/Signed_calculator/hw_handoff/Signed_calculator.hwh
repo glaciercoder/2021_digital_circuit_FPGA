@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Nov 16 21:46:22 2021" VIVADOVERSION="2021.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="Signed_calculator" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="Sign_a" SIGIS="undef" SIGNAME="External_Ports_Sign_a">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="input_5_complementor_0" PORT="Sign"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="External_Ports_a1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="input_5_complementor_0" PORT="a1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="External_Ports_a2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="input_5_complementor_0" PORT="a2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="External_Ports_a3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="input_5_complementor_0" PORT="a3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="Sign_b" SIGIS="undef" SIGNAME="External_Ports_Sign_b">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="input_5_complementor_1" PORT="Sign"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="GND" SIGIS="undef" SIGNAME="External_Ports_GND">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="input_5_complementor_0" PORT="a4"/>
+        <CONNECTION INSTANCE="input_5_complementor_0" PORT="a5"/>
+        <CONNECTION INSTANCE="input_5_complementor_1" PORT="a4"/>
+        <CONNECTION INSTANCE="input_5_complementor_1" PORT="a5"/>
+        <CONNECTION INSTANCE="input_5_complementor_1" PORT="GND"/>
+        <CONNECTION INSTANCE="input_5_complementor_0" PORT="GND"/>
+        <CONNECTION INSTANCE="input_5_complementor_2" PORT="a5"/>
+        <CONNECTION INSTANCE="input_5_complementor_2" PORT="GND"/>
+        <CONNECTION INSTANCE="Adder_5_0" PORT="CI"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b1" SIGIS="undef" SIGNAME="External_Ports_b1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="input_5_complementor_1" PORT="a1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b2" SIGIS="undef" SIGNAME="External_Ports_b2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="input_5_complementor_1" PORT="a2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b3" SIGIS="undef" SIGNAME="External_Ports_b3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="input_5_complementor_1" PORT="a3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S1" SIGIS="undef" SIGNAME="input_5_complementor_2_S1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="input_5_complementor_2" PORT="S1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S2" SIGIS="undef" SIGNAME="input_5_complementor_2_S2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="input_5_complementor_2" PORT="S2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S3" SIGIS="undef" SIGNAME="input_5_complementor_2_S3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="input_5_complementor_2" PORT="S3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S4" SIGIS="undef" SIGNAME="input_5_complementor_2_S4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="input_5_complementor_2" PORT="S4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Sign" SIGIS="undef" SIGNAME="Adder_5_0_S5">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_5_0" PORT="S5"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/Adder_5_0" HWVERSION="1.0" INSTANCE="Adder_5_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Adder_5" VLNV="xilinx.com:user:Adder_5:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Signed_calculator_Adder_5_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="CI" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="CO" SIGIS="undef"/>
+        <PORT DIR="O" NAME="S1" SIGIS="undef" SIGNAME="Adder_5_0_S1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_2" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S2" SIGIS="undef" SIGNAME="Adder_5_0_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_2" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S3" SIGIS="undef" SIGNAME="Adder_5_0_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_2" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S4" SIGIS="undef" SIGNAME="Adder_5_0_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_2" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S5" SIGIS="undef" SIGNAME="Adder_5_0_S5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_2" PORT="Sign"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="Sign"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="input_5_complementor_0_S1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_0" PORT="S1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="input_5_complementor_0_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_0" PORT="S2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="input_5_complementor_0_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_0" PORT="S3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="input_5_complementor_0_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_0" PORT="S4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a5" SIGIS="undef" SIGNAME="input_5_complementor_0_S5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_0" PORT="S5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b1" SIGIS="undef" SIGNAME="input_5_complementor_1_S1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_1" PORT="S1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b2" SIGIS="undef" SIGNAME="input_5_complementor_1_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_1" PORT="S2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b3" SIGIS="undef" SIGNAME="input_5_complementor_1_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_1" PORT="S3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b4" SIGIS="undef" SIGNAME="input_5_complementor_1_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_1" PORT="S4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b5" SIGIS="undef" SIGNAME="input_5_complementor_1_S5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="input_5_complementor_1" PORT="S5"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/input_5_complementor_0" HWVERSION="1.0" INSTANCE="input_5_complementor_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="input_5_complementor" VLNV="xilinx.com:user:input_5_complementor:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Signed_calculator_input_5_complementor_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="CO" SIGIS="undef"/>
+        <PORT DIR="I" NAME="GND" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S1" SIGIS="undef" SIGNAME="input_5_complementor_0_S1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S2" SIGIS="undef" SIGNAME="input_5_complementor_0_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S3" SIGIS="undef" SIGNAME="input_5_complementor_0_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S4" SIGIS="undef" SIGNAME="input_5_complementor_0_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S5" SIGIS="undef" SIGNAME="input_5_complementor_0_S5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="a5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Sign" SIGIS="undef" SIGNAME="External_Ports_Sign_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Sign_a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="External_Ports_a1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="External_Ports_a2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="External_Ports_a3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a5" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/input_5_complementor_1" HWVERSION="1.0" INSTANCE="input_5_complementor_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="input_5_complementor" VLNV="xilinx.com:user:input_5_complementor:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Signed_calculator_input_5_complementor_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="CO" SIGIS="undef"/>
+        <PORT DIR="I" NAME="GND" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S1" SIGIS="undef" SIGNAME="input_5_complementor_1_S1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="b1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S2" SIGIS="undef" SIGNAME="input_5_complementor_1_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="b2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S3" SIGIS="undef" SIGNAME="input_5_complementor_1_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="b3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S4" SIGIS="undef" SIGNAME="input_5_complementor_1_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="b4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S5" SIGIS="undef" SIGNAME="input_5_complementor_1_S5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="b5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Sign" SIGIS="undef" SIGNAME="External_Ports_Sign_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Sign_b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="External_Ports_b1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="External_Ports_b2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="External_Ports_b3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a5" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/input_5_complementor_2" HWVERSION="1.0" INSTANCE="input_5_complementor_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="input_5_complementor" VLNV="xilinx.com:user:input_5_complementor:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Signed_calculator_input_5_complementor_2_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="CO" SIGIS="undef"/>
+        <PORT DIR="I" NAME="GND" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S1" SIGIS="undef" SIGNAME="input_5_complementor_2_S1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S2" SIGIS="undef" SIGNAME="input_5_complementor_2_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S3" SIGIS="undef" SIGNAME="input_5_complementor_2_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S4" SIGIS="undef" SIGNAME="input_5_complementor_2_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S5" SIGIS="undef"/>
+        <PORT DIR="I" NAME="Sign" SIGIS="undef" SIGNAME="Adder_5_0_S5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="S5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="Adder_5_0_S1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="S1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="Adder_5_0_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="S2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="Adder_5_0_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="S3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="Adder_5_0_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_5_0" PORT="S4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a5" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

@@ -1,0 +1,47 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.41867",
+   "Default View_TopLeft":"-596,-460",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_Sign -pg 1 -lvl 0 -x 0 -y -440 -defaultsOSRD
+preplace port port-id_a1 -pg 1 -lvl 0 -x 0 -y -310 -defaultsOSRD
+preplace port port-id_a2 -pg 1 -lvl 0 -x 0 -y -180 -defaultsOSRD
+preplace port port-id_a3 -pg 1 -lvl 0 -x 0 -y -30 -defaultsOSRD
+preplace port port-id_S1 -pg 1 -lvl 3 -x 580 -y -330 -defaultsOSRD
+preplace port port-id_S2 -pg 1 -lvl 3 -x 580 -y -200 -defaultsOSRD
+preplace port port-id_S3 -pg 1 -lvl 3 -x 580 -y -60 -defaultsOSRD
+preplace port port-id_GND -pg 1 -lvl 0 -x 0 -y -390 -defaultsOSRD
+preplace port port-id_S4 -pg 1 -lvl 3 -x 580 -y 100 -defaultsOSRD
+preplace port port-id_CO -pg 1 -lvl 3 -x 580 -y 80 -defaultsOSRD
+preplace inst xup_xor2_0 -pg 1 -lvl 1 -x 240 -y -280 -defaultsOSRD
+preplace inst xup_xor2_1 -pg 1 -lvl 1 -x 240 -y -10 -defaultsOSRD
+preplace inst xup_xor2_2 -pg 1 -lvl 1 -x 240 -y 110 -defaultsOSRD
+preplace inst Adder_1_0 -pg 1 -lvl 2 -x 450 -y -350 -defaultsOSRD
+preplace inst Adder_1_1 -pg 1 -lvl 2 -x 450 -y -210 -defaultsOSRD
+preplace inst Adder_1_2 -pg 1 -lvl 2 -x 450 -y -70 -defaultsOSRD
+preplace inst xup_xor2_3 -pg 1 -lvl 1 -x 240 -y 230 -defaultsOSRD -resize 87 93
+preplace inst Adder_1_3 -pg 1 -lvl 2 -x 450 -y 90 -defaultsOSRD
+preplace netloc Adder_1_0_CO 1 1 2 360 -430 530
+preplace netloc Adder_1_0_S 1 2 1 550 -340n
+preplace netloc Adder_1_1_CO 1 1 2 350 -440 540
+preplace netloc Adder_1_1_S 1 2 1 N -200
+preplace netloc Adder_1_2_S 1 2 1 N -60
+preplace netloc GND_1 1 0 2 40J -360 340
+preplace netloc Sign_1 1 0 2 50 -350 N
+preplace netloc a1_1 1 0 1 60 -310n
+preplace netloc a2_1 1 0 1 30 -180n
+preplace netloc a3_1 1 0 1 20 -30n
+preplace netloc xup_xor2_0_y 1 1 1 330 -330n
+preplace netloc xup_xor2_1_y 1 1 1 330 -190n
+preplace netloc xup_xor2_2_y 1 1 1 350 -50n
+preplace netloc Adder_1_2_CO 1 1 2 360 10 530
+preplace netloc xup_xor2_3_y 1 1 1 360 110n
+preplace netloc Adder_1_3_S 1 2 1 N 100
+preplace netloc Adder_1_3_CO 1 2 1 N 80
+levelinfo -pg 1 0 240 450 580
+pagesize -pg 1 -db -bbox -sgen -80 -600 650 290
+"
+}
+0

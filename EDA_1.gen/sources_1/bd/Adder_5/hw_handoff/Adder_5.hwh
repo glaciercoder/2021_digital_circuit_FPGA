@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Nov 16 21:46:09 2021" VIVADOVERSION="2021.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="Adder_5" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="External_Ports_a1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_4_0" PORT="a1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="External_Ports_a2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_4_0" PORT="a2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="External_Ports_a3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_4_0" PORT="a3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="External_Ports_a4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_4_0" PORT="a4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b1" SIGIS="undef" SIGNAME="External_Ports_b1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_4_0" PORT="b1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b2" SIGIS="undef" SIGNAME="External_Ports_b2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_4_0" PORT="b2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b3" SIGIS="undef" SIGNAME="External_Ports_b3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_4_0" PORT="b3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b4" SIGIS="undef" SIGNAME="External_Ports_b4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_4_0" PORT="b4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a5" SIGIS="undef" SIGNAME="External_Ports_a5">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_1_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b5" SIGIS="undef" SIGNAME="External_Ports_b5">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_1_0" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S1" SIGIS="undef" SIGNAME="Adder_4_0_S1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_4_0" PORT="S1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S2" SIGIS="undef" SIGNAME="Adder_4_0_S2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_4_0" PORT="S2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S3" SIGIS="undef" SIGNAME="Adder_4_0_S3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_4_0" PORT="S3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S4" SIGIS="undef" SIGNAME="Adder_4_0_S4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_4_0" PORT="S4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="CO" SIGIS="undef" SIGNAME="Adder_1_0_CO">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_1_0" PORT="CO"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S5" SIGIS="undef" SIGNAME="Adder_1_0_S">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_1_0" PORT="S"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="CI" SIGIS="undef" SIGNAME="External_Ports_CI">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Adder_4_0" PORT="CI"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/Adder_1_0" HWVERSION="1.0" INSTANCE="Adder_1_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Adder_1" VLNV="xilinx.com:user:Adder_1:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Adder_5_Adder_1_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="CI" SIGIS="undef" SIGNAME="Adder_4_0_CO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_4_0" PORT="CO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="CO" SIGIS="undef" SIGNAME="Adder_1_0_CO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S" SIGIS="undef" SIGNAME="Adder_1_0_S">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b5"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/Adder_4_0" HWVERSION="1.0" INSTANCE="Adder_4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Adder_4" VLNV="xilinx.com:user:Adder_4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Adder_5_Adder_4_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="CI" SIGIS="undef" SIGNAME="External_Ports_CI">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CI"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="CO" SIGIS="undef" SIGNAME="Adder_4_0_CO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Adder_1_0" PORT="CI"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S1" SIGIS="undef" SIGNAME="Adder_4_0_S1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S2" SIGIS="undef" SIGNAME="Adder_4_0_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S3" SIGIS="undef" SIGNAME="Adder_4_0_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S4" SIGIS="undef" SIGNAME="Adder_4_0_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="External_Ports_a1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="External_Ports_a2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="External_Ports_a3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="External_Ports_a4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b1" SIGIS="undef" SIGNAME="External_Ports_b1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b2" SIGIS="undef" SIGNAME="External_Ports_b2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b3" SIGIS="undef" SIGNAME="External_Ports_b3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b4" SIGIS="undef" SIGNAME="External_Ports_b4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
