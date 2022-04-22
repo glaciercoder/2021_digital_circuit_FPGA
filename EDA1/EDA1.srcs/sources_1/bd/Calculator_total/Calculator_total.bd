@@ -1,0 +1,519 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x49D2EAB4AD89DE5E",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../EDA1.gen/sources_1/bd/Calculator_total",
+      "name": "Calculator_total",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2021.1"
+    },
+    "design_tree": {
+      "Signed_calculator_0": "",
+      "xlconstant_1": "",
+      "xlconstant_2": "",
+      "xlslice_0": "",
+      "xlslice_2": "",
+      "xlslice_3": "",
+      "xlslice_4": "",
+      "xup_inv_7": "",
+      "xup_inv_8": "",
+      "xup_inv_9": "",
+      "xup_inv_10": "",
+      "ring_counter_0": "",
+      "binary_2_segment_0": "",
+      "clock_divider_0": ""
+    },
+    "ports": {
+      "CLK": {
+        "direction": "I"
+      },
+      "Sign": {
+        "direction": "O"
+      },
+      "Sign_a": {
+        "direction": "I"
+      },
+      "Sign_b": {
+        "direction": "I"
+      },
+      "a1": {
+        "direction": "I"
+      },
+      "a2": {
+        "direction": "I"
+      },
+      "a3": {
+        "direction": "I"
+      },
+      "b1": {
+        "direction": "I"
+      },
+      "b2": {
+        "direction": "I"
+      },
+      "b3": {
+        "direction": "I"
+      },
+      "a": {
+        "direction": "O"
+      },
+      "b": {
+        "direction": "O"
+      },
+      "c": {
+        "direction": "O"
+      },
+      "d": {
+        "direction": "O"
+      },
+      "e": {
+        "direction": "O"
+      },
+      "f": {
+        "direction": "O"
+      },
+      "g": {
+        "direction": "O"
+      },
+      "AN0": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "AN1": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "AN2": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "AN3": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "rstn": {
+        "type": "rst",
+        "direction": "I"
+      }
+    },
+    "components": {
+      "Signed_calculator_0": {
+        "vlnv": "xilinx.com:user:Signed_calculator:1.0",
+        "xci_name": "Calculator_total_Signed_calculator_0_0",
+        "xci_path": "ip\\Calculator_total_Signed_calculator_0_0_4\\Calculator_total_Signed_calculator_0_0.xci",
+        "inst_hier_path": "Signed_calculator_0"
+      },
+      "xlconstant_1": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "Calculator_total_xlconstant_0_4",
+        "xci_path": "ip\\Calculator_total_xlconstant_0_4\\Calculator_total_xlconstant_0_4.xci",
+        "inst_hier_path": "xlconstant_1",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      },
+      "xlconstant_2": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "Calculator_total_xlconstant_1_0",
+        "xci_path": "ip\\Calculator_total_xlconstant_1_0\\Calculator_total_xlconstant_1_0.xci",
+        "inst_hier_path": "xlconstant_2",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      },
+      "xlslice_0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "Calculator_total_xlslice_0_0",
+        "xci_path": "ip\\Calculator_total_xlslice_0_0\\Calculator_total_xlslice_0_0.xci",
+        "inst_hier_path": "xlslice_0",
+        "parameters": {
+          "DIN_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "xlslice_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "Calculator_total_xlslice_0_1",
+        "xci_path": "ip\\Calculator_total_xlslice_0_1\\Calculator_total_xlslice_0_1.xci",
+        "inst_hier_path": "xlslice_2",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "1"
+          },
+          "DIN_TO": {
+            "value": "1"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "xlslice_3": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "Calculator_total_xlslice_2_0",
+        "xci_path": "ip\\Calculator_total_xlslice_2_0\\Calculator_total_xlslice_2_0.xci",
+        "inst_hier_path": "xlslice_3",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "2"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "xlslice_4": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "Calculator_total_xlslice_3_0",
+        "xci_path": "ip\\Calculator_total_xlslice_3_0\\Calculator_total_xlslice_3_0.xci",
+        "inst_hier_path": "xlslice_4",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "3"
+          },
+          "DIN_TO": {
+            "value": "3"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "xup_inv_7": {
+        "vlnv": "xilinx.com:xup:xup_inv:1.0",
+        "xci_name": "Calculator_total_xup_inv_7_0",
+        "xci_path": "ip\\Calculator_total_xup_inv_7_0\\Calculator_total_xup_inv_7_0.xci",
+        "inst_hier_path": "xup_inv_7"
+      },
+      "xup_inv_8": {
+        "vlnv": "xilinx.com:xup:xup_inv:1.0",
+        "xci_name": "Calculator_total_xup_inv_7_1",
+        "xci_path": "ip\\Calculator_total_xup_inv_7_1\\Calculator_total_xup_inv_7_1.xci",
+        "inst_hier_path": "xup_inv_8"
+      },
+      "xup_inv_9": {
+        "vlnv": "xilinx.com:xup:xup_inv:1.0",
+        "xci_name": "Calculator_total_xup_inv_8_0",
+        "xci_path": "ip\\Calculator_total_xup_inv_8_0\\Calculator_total_xup_inv_8_0.xci",
+        "inst_hier_path": "xup_inv_9"
+      },
+      "xup_inv_10": {
+        "vlnv": "xilinx.com:xup:xup_inv:1.0",
+        "xci_name": "Calculator_total_xup_inv_9_0",
+        "xci_path": "ip\\Calculator_total_xup_inv_9_0\\Calculator_total_xup_inv_9_0.xci",
+        "inst_hier_path": "xup_inv_10"
+      },
+      "ring_counter_0": {
+        "vlnv": "xilinx.com:module_ref:ring_counter:1.0",
+        "xci_name": "Calculator_total_ring_counter_0_0",
+        "xci_path": "ip\\Calculator_total_ring_counter_0_0\\Calculator_total_ring_counter_0_0.xci",
+        "inst_hier_path": "ring_counter_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ring_counter",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rstn",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "Calculator_total_clock_divider_0_0_clock_out",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rstn": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_LOW",
+                "value_src": "constant"
+              }
+            }
+          },
+          "AN": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      },
+      "binary_2_segment_0": {
+        "vlnv": "xilinx.com:user:binary_2_segment:1.0",
+        "xci_name": "Calculator_total_binary_2_segment_0_0",
+        "xci_path": "ip\\Calculator_total_binary_2_segment_0_0_2\\Calculator_total_binary_2_segment_0_0.xci",
+        "inst_hier_path": "binary_2_segment_0"
+      },
+      "clock_divider_0": {
+        "vlnv": "xilinx.com:module_ref:clock_divider:1.0",
+        "xci_name": "Calculator_total_clock_divider_0_0",
+        "xci_path": "ip\\Calculator_total_clock_divider_0_0\\Calculator_total_clock_divider_0_0.xci",
+        "inst_hier_path": "clock_divider_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "clock_divider",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "clock_out": {
+            "type": "clk",
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "CLK_1": {
+        "ports": [
+          "CLK",
+          "clock_divider_0/CLK"
+        ]
+      },
+      "Sign_a_1": {
+        "ports": [
+          "Sign_a",
+          "Signed_calculator_0/Sign_a"
+        ]
+      },
+      "Sign_b_1": {
+        "ports": [
+          "Sign_b",
+          "Signed_calculator_0/Sign_b"
+        ]
+      },
+      "Signed_calculator_0_S1": {
+        "ports": [
+          "Signed_calculator_0/S1",
+          "binary_2_segment_0/S1"
+        ]
+      },
+      "Signed_calculator_0_S2": {
+        "ports": [
+          "Signed_calculator_0/S2",
+          "binary_2_segment_0/S2"
+        ]
+      },
+      "Signed_calculator_0_S3": {
+        "ports": [
+          "Signed_calculator_0/S3",
+          "binary_2_segment_0/S3"
+        ]
+      },
+      "Signed_calculator_0_S4": {
+        "ports": [
+          "Signed_calculator_0/S4",
+          "binary_2_segment_0/S4"
+        ]
+      },
+      "Signed_calculator_0_Sign": {
+        "ports": [
+          "Signed_calculator_0/Sign",
+          "Sign"
+        ]
+      },
+      "a1_1": {
+        "ports": [
+          "a1",
+          "Signed_calculator_0/a1",
+          "binary_2_segment_0/a1"
+        ]
+      },
+      "a2_1": {
+        "ports": [
+          "a2",
+          "Signed_calculator_0/a2",
+          "binary_2_segment_0/a2"
+        ]
+      },
+      "a3_1": {
+        "ports": [
+          "a3",
+          "Signed_calculator_0/a3",
+          "binary_2_segment_0/a3"
+        ]
+      },
+      "b1_1": {
+        "ports": [
+          "b1",
+          "Signed_calculator_0/b1",
+          "binary_2_segment_0/b1"
+        ]
+      },
+      "b2_1": {
+        "ports": [
+          "b2",
+          "Signed_calculator_0/b2",
+          "binary_2_segment_0/b2"
+        ]
+      },
+      "b3_1": {
+        "ports": [
+          "b3",
+          "Signed_calculator_0/b3",
+          "binary_2_segment_0/b3"
+        ]
+      },
+      "binary_2_segment_0_a": {
+        "ports": [
+          "binary_2_segment_0/a",
+          "a"
+        ]
+      },
+      "binary_2_segment_0_b": {
+        "ports": [
+          "binary_2_segment_0/b",
+          "b"
+        ]
+      },
+      "binary_2_segment_0_c": {
+        "ports": [
+          "binary_2_segment_0/c",
+          "c"
+        ]
+      },
+      "binary_2_segment_0_d": {
+        "ports": [
+          "binary_2_segment_0/d",
+          "d"
+        ]
+      },
+      "binary_2_segment_0_e": {
+        "ports": [
+          "binary_2_segment_0/e",
+          "e"
+        ]
+      },
+      "binary_2_segment_0_f": {
+        "ports": [
+          "binary_2_segment_0/f",
+          "f"
+        ]
+      },
+      "binary_2_segment_0_g": {
+        "ports": [
+          "binary_2_segment_0/g",
+          "g"
+        ]
+      },
+      "clock_divider_0_clock_out": {
+        "ports": [
+          "clock_divider_0/clock_out",
+          "ring_counter_0/CLK"
+        ]
+      },
+      "ring_counter_0_AN": {
+        "ports": [
+          "ring_counter_0/AN",
+          "xlslice_0/Din",
+          "xlslice_2/Din",
+          "xlslice_3/Din",
+          "xlslice_4/Din"
+        ]
+      },
+      "rstn_1": {
+        "ports": [
+          "rstn",
+          "ring_counter_0/rstn"
+        ]
+      },
+      "xlconstant_1_dout": {
+        "ports": [
+          "xlconstant_1/dout",
+          "binary_2_segment_0/GND"
+        ]
+      },
+      "xlconstant_2_dout": {
+        "ports": [
+          "xlconstant_2/dout",
+          "Signed_calculator_0/GND"
+        ]
+      },
+      "xlslice_0_Dout": {
+        "ports": [
+          "xlslice_0/Dout",
+          "xup_inv_7/a"
+        ]
+      },
+      "xlslice_2_Dout": {
+        "ports": [
+          "xlslice_2/Dout",
+          "xup_inv_8/a"
+        ]
+      },
+      "xlslice_3_Dout": {
+        "ports": [
+          "xlslice_3/Dout",
+          "xup_inv_9/a"
+        ]
+      },
+      "xlslice_4_Dout": {
+        "ports": [
+          "xlslice_4/Dout",
+          "xup_inv_10/a"
+        ]
+      },
+      "xup_inv_10_y": {
+        "ports": [
+          "xup_inv_10/y",
+          "AN3",
+          "binary_2_segment_0/AN3"
+        ]
+      },
+      "xup_inv_7_y": {
+        "ports": [
+          "xup_inv_7/y",
+          "AN0",
+          "binary_2_segment_0/AN0"
+        ]
+      },
+      "xup_inv_8_y": {
+        "ports": [
+          "xup_inv_8/y",
+          "AN1",
+          "binary_2_segment_0/AN1"
+        ]
+      },
+      "xup_inv_9_y": {
+        "ports": [
+          "xup_inv_9/y",
+          "AN2",
+          "binary_2_segment_0/AN2"
+        ]
+      }
+    }
+  }
+}

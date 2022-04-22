@@ -1,0 +1,321 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Dec 16 12:17:12 2021
+# Process ID: 24060
+# Current directory: C:/Users/weibc/Desktop/EDA_2/EDA_2.runs/synth_1
+# Command line: vivado.exe -log top_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_module.tcl
+# Log file: C:/Users/weibc/Desktop/EDA_2/EDA_2.runs/synth_1/top_module.vds
+# Journal file: C:/Users/weibc/Desktop/EDA_2/EDA_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_module.tcl -notrace
+Command: synth_design -top top_module -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 19972
+WARNING: [Synth 8-2611] redeclaration of ansi port keystate is not allowed [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/Keypad.v:31]
+WARNING: [Synth 8-2611] redeclaration of ansi port quotient is not allowed [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/divide_by12.v:28]
+WARNING: [Synth 8-2611] redeclaration of ansi port substate is not allowed [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/top_module.v:63]
+WARNING: [Synth 8-2611] redeclaration of ansi port waiting_over is not allowed [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/top_module.v:81]
+WARNING: [Synth 8-2611] redeclaration of ansi port waiting_state is not allowed [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/top_module.v:81]
+WARNING: [Synth 8-6901] identifier 'music_reg' is used before its declaration [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/top_module.v:162]
+WARNING: [Synth 8-6901] identifier 'music_reg' is used before its declaration [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/top_module.v:168]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_module' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/top_module.v:23]
+INFO: [Synth 8-6157] synthesizing module 'display_LED' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/display_LED.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'display_LED' (1#1) [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/display_LED.v:23]
+INFO: [Synth 8-6157] synthesizing module 'time_calculator' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/time_calculator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BCD_2_binary' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/BCD_2_binary.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'BCD_2_binary' (2#1) [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/BCD_2_binary.v:23]
+INFO: [Synth 8-6157] synthesizing module 'binary_2_BCD' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/binary_2_BCD.v:23]
+INFO: [Synth 8-6157] synthesizing module 'add3' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/add3.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'add3' (3#1) [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/add3.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'binary_2_BCD' (4#1) [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/binary_2_BCD.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'time_calculator' (5#1) [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/time_calculator.v:23]
+WARNING: [Synth 8-7071] port 'waiting_over' of module 'time_calculator' is unconnected for instance 'count_down' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/top_module.v:84]
+WARNING: [Synth 8-7071] port 'waiting_state' of module 'time_calculator' is unconnected for instance 'count_down' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/top_module.v:84]
+WARNING: [Synth 8-7023] instance 'count_down' of module 'time_calculator' has 10 connections declared, but only 8 given [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/top_module.v:84]
+INFO: [Synth 8-6157] synthesizing module 'keyboard_2_bcd' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keyboard_2_bcd.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'keyboard_2_bcd' (6#1) [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keyboard_2_bcd.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Keypad' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/Keypad.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypad_clk_generator' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keypad_clk_generator.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'keypad_clk_generator' (7#1) [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keypad_clk_generator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypad_scan' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keypad_scan.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keypad_scan.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'keypad_scan' (8#1) [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keypad_scan.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Keypad' (9#1) [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/Keypad.v:23]
+INFO: [Synth 8-6157] synthesizing module 'monostable' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/monostable.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'monostable' (10#1) [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/monostable.v:23]
+INFO: [Synth 8-6157] synthesizing module 'buzzer' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/buzzer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'divide_by12' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/divide_by12.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'divide_by12' (11#1) [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/divide_by12.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'buzzer' (12#1) [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/buzzer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top_module' (13#1) [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/top_module.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1134.805 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc]
+WARNING: [Vivado 12-584] No ports matched 'bcd_input[3]'. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd_input[2]'. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd_input[1]'. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd_input[0]'. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd_input[3]'. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd_input[2]'. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd_input[1]'. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bcd_input[0]'. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/top_module_test3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_module_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_module_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1134.805 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'keypad_scan'
+WARNING: [Synth 8-327] inferring latch for variable 'LED_BCD_reg' [C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/display_LED.v:56]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                              001 |                               00
+                  iSTATE |                              010 |                               01
+                 iSTATE1 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'keypad_scan'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
++---Registers : 
+	               13 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 3     
+	   4 Input    8 Bit        Muxes := 1     
+	  17 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   3 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 3     
+	   4 Input    4 Bit        Muxes := 2     
+	  12 Input    4 Bit        Muxes := 1     
+	   3 Input    4 Bit        Muxes := 1     
+	   5 Input    4 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	  16 Input    3 Bit        Muxes := 1     
+	  16 Input    2 Bit        Muxes := 1     
+	   7 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   5 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 19    
+	   3 Input    1 Bit        Muxes := 10    
+	   6 Input    1 Bit        Muxes := 4     
+	   5 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    37|
+|3     |LUT1   |     6|
+|4     |LUT2   |    19|
+|5     |LUT3   |    29|
+|6     |LUT4   |    55|
+|7     |LUT5   |    84|
+|8     |LUT6   |    85|
+|9     |FDCE   |    80|
+|10    |FDPE   |     1|
+|11    |FDRE   |   146|
+|12    |LD     |     4|
+|13    |IBUF   |     6|
+|14    |OBUF   |    22|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1134.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1134.805 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1134.805 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1134.805 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1138.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  LD => LDCE: 4 instances
+
+Synth Design complete, checksum: eba65032
+INFO: [Common 17-83] Releasing license: Synthesis
+44 Infos, 19 Warnings, 8 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1138.461 ; gain = 3.656
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/weibc/Desktop/EDA_2/EDA_2.runs/synth_1/top_module.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_module_utilization_synth.rpt -pb top_module_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 16 12:17:41 2021...

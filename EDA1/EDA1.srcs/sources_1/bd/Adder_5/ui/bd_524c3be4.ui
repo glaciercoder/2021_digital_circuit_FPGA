@@ -1,0 +1,56 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.58806",
+   "Default View_TopLeft":"-598,0",
+   "ExpandedHierarchyInLayout":"",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_CI -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port port-id_a1 -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port port-id_b1 -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port port-id_a2 -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port port-id_a3 -pg 1 -lvl 0 -x 0 -y 330 -defaultsOSRD
+preplace port port-id_a4 -pg 1 -lvl 0 -x 0 -y 490 -defaultsOSRD
+preplace port port-id_a5 -pg 1 -lvl 0 -x 0 -y 570 -defaultsOSRD
+preplace port port-id_b2 -pg 1 -lvl 0 -x 0 -y 260 -defaultsOSRD
+preplace port port-id_b3 -pg 1 -lvl 0 -x 0 -y 350 -defaultsOSRD
+preplace port port-id_b4 -pg 1 -lvl 0 -x 0 -y 510 -defaultsOSRD
+preplace port port-id_b5 -pg 1 -lvl 0 -x 0 -y 590 -defaultsOSRD
+preplace port port-id_S1 -pg 1 -lvl 3 -x 370 -y 90 -defaultsOSRD
+preplace port port-id_S2 -pg 1 -lvl 3 -x 370 -y 250 -defaultsOSRD
+preplace port port-id_S3 -pg 1 -lvl 3 -x 370 -y 340 -defaultsOSRD
+preplace port port-id_S4 -pg 1 -lvl 3 -x 370 -y 650 -defaultsOSRD
+preplace port port-id_S5 -pg 1 -lvl 3 -x 370 -y 580 -defaultsOSRD
+preplace port port-id_CO -pg 1 -lvl 3 -x 370 -y 560 -defaultsOSRD
+preplace inst Adder_1_1 -pg 1 -lvl 2 -x 270 -y 80 -defaultsOSRD
+preplace inst Adder_1_2 -pg 1 -lvl 1 -x 100 -y 240 -defaultsOSRD
+preplace inst Adder_1_3 -pg 1 -lvl 2 -x 270 -y 330 -defaultsOSRD
+preplace inst Adder_1_4 -pg 1 -lvl 1 -x 100 -y 490 -defaultsOSRD
+preplace inst Adder_1_5 -pg 1 -lvl 2 -x 270 -y 570 -defaultsOSRD
+preplace netloc Adder_1_1_CO 1 0 3 20 160 NJ 160 350
+preplace netloc Adder_1_1_S 1 2 1 NJ 90
+preplace netloc Adder_1_2_CO 1 1 1 190 230n
+preplace netloc Adder_1_2_S 1 1 2 NJ 250 NJ
+preplace netloc Adder_1_3_CO 1 0 3 20 410 NJ 410 350
+preplace netloc Adder_1_3_S 1 2 1 NJ 340
+preplace netloc Adder_1_4_CO 1 1 1 190 480n
+preplace netloc Adder_1_4_S 1 1 2 180J 650 NJ
+preplace netloc Adder_1_5_CO 1 2 1 NJ 560
+preplace netloc Adder_1_5_S 1 2 1 NJ 580
+preplace netloc CI_1 1 0 2 NJ 60 NJ
+preplace netloc a1_1 1 0 2 NJ 80 NJ
+preplace netloc a2_1 1 0 1 NJ 240
+preplace netloc a3_1 1 0 2 NJ 330 NJ
+preplace netloc a4_1 1 0 1 NJ 490
+preplace netloc a5_1 1 0 2 NJ 570 NJ
+preplace netloc b1_1 1 0 2 NJ 100 NJ
+preplace netloc b2_1 1 0 1 NJ 260
+preplace netloc b3_1 1 0 2 NJ 350 NJ
+preplace netloc b4_1 1 0 1 NJ 510
+preplace netloc b5_1 1 0 2 NJ 590 NJ
+levelinfo -pg 1 0 100 270 370
+pagesize -pg 1 -db -bbox -sgen -70 0 440 670
+"
+}
+0

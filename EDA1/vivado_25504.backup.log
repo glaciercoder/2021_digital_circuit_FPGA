@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Dec 13 18:48:27 2021
+# Process ID: 25504
+# Current directory: C:/Users/weibc/Desktop/EDA1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19944 C:\Users\weibc\Desktop\EDA1\EDA1.xpr
+# Log file: C:/Users/weibc/Desktop/EDA1/vivado.log
+# Journal file: C:/Users/weibc/Desktop/EDA1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/weibc/Desktop/EDA1/EDA1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/binary_2_segment'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/Decoder7448'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/display_select'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/frequency_divider'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/frequency_10_divider'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/frequency_4_divider'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/Signed_calculator'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/input_5_complementor'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/Adder_5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/Adder_1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/74LSXX_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1134.734 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 13 21:25:07 2021...

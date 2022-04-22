@@ -1,0 +1,139 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x6241F6556241F655",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../EDA1.gen/sources_1/bd/Adder_1",
+      "name": "Adder_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xup_xor2_0": "",
+      "xup_nor2_0": "",
+      "xup_nor2_2": "",
+      "xup_xor2_1": "",
+      "xup_nor2_3": "",
+      "xup_nor3_0": ""
+    },
+    "ports": {
+      "a": {
+        "direction": "I"
+      },
+      "b": {
+        "direction": "I"
+      },
+      "CI": {
+        "direction": "I"
+      },
+      "CO": {
+        "direction": "O"
+      },
+      "S": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "xup_xor2_0": {
+        "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+        "xci_name": "Adder_1_xup_xor2_0_2",
+        "xci_path": "ip\\Adder_1_xup_xor2_0_2_1\\Adder_1_xup_xor2_0_2.xci",
+        "inst_hier_path": "xup_xor2_0"
+      },
+      "xup_nor2_0": {
+        "vlnv": "xilinx.com:xup:xup_nor2:1.0",
+        "xci_name": "Adder_1_xup_nor2_0_4",
+        "xci_path": "ip\\Adder_1_xup_nor2_0_4_1\\Adder_1_xup_nor2_0_4.xci",
+        "inst_hier_path": "xup_nor2_0"
+      },
+      "xup_nor2_2": {
+        "vlnv": "xilinx.com:xup:xup_nor2:1.0",
+        "xci_name": "Adder_1_xup_nor2_2_0",
+        "xci_path": "ip\\Adder_1_xup_nor2_2_0_1\\Adder_1_xup_nor2_2_0.xci",
+        "inst_hier_path": "xup_nor2_2"
+      },
+      "xup_xor2_1": {
+        "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+        "xci_name": "Adder_1_xup_xor2_1_0",
+        "xci_path": "ip\\Adder_1_xup_xor2_1_0_1\\Adder_1_xup_xor2_1_0.xci",
+        "inst_hier_path": "xup_xor2_1"
+      },
+      "xup_nor2_3": {
+        "vlnv": "xilinx.com:xup:xup_nor2:1.0",
+        "xci_name": "Adder_1_xup_nor2_3_0",
+        "xci_path": "ip\\Adder_1_xup_nor2_3_0_1\\Adder_1_xup_nor2_3_0.xci",
+        "inst_hier_path": "xup_nor2_3"
+      },
+      "xup_nor3_0": {
+        "vlnv": "xilinx.com:xup:xup_nor3:1.0",
+        "xci_name": "Adder_1_xup_nor3_0_1",
+        "xci_path": "ip\\Adder_1_xup_nor3_0_1_1\\Adder_1_xup_nor3_0_1.xci",
+        "inst_hier_path": "xup_nor3_0"
+      }
+    },
+    "nets": {
+      "CI_1": {
+        "ports": [
+          "CI",
+          "xup_nor2_2/b",
+          "xup_nor2_0/a",
+          "xup_xor2_1/b"
+        ]
+      },
+      "a_1": {
+        "ports": [
+          "a",
+          "xup_xor2_0/a",
+          "xup_nor2_2/a",
+          "xup_nor2_3/a"
+        ]
+      },
+      "b_1": {
+        "ports": [
+          "b",
+          "xup_xor2_0/b",
+          "xup_nor2_3/b",
+          "xup_nor2_0/b"
+        ]
+      },
+      "xup_nor2_0_y": {
+        "ports": [
+          "xup_nor2_0/y",
+          "xup_nor3_0/a"
+        ]
+      },
+      "xup_nor2_2_y": {
+        "ports": [
+          "xup_nor2_2/y",
+          "xup_nor3_0/b"
+        ]
+      },
+      "xup_nor2_3_y": {
+        "ports": [
+          "xup_nor2_3/y",
+          "xup_nor3_0/c"
+        ]
+      },
+      "xup_nor3_0_y": {
+        "ports": [
+          "xup_nor3_0/y",
+          "CO"
+        ]
+      },
+      "xup_xor2_0_y": {
+        "ports": [
+          "xup_xor2_0/y",
+          "xup_xor2_1/a"
+        ]
+      },
+      "xup_xor2_1_y": {
+        "ports": [
+          "xup_xor2_1/y",
+          "S"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Dec  7 19:53:41 2021
+# Process ID: 27324
+# Current directory: C:/Users/weibc/Desktop/EDA_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27436 C:\Users\weibc\Desktop\EDA_2\EDA_2.xpr
+# Log file: C:/Users/weibc/Desktop/EDA_2/vivado.log
+# Journal file: C:/Users/weibc/Desktop/EDA_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/weibc/Desktop/EDA_2/EDA_2.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keypad_scan.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/Keypad.v w ]
+add_files C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/Keypad.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keypad_clk_generator.v w ]
+add_files C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keypad_clk_generator.v
+update_compile_order -fileset sources_1

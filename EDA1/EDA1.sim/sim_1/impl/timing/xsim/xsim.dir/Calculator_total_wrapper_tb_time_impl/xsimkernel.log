@@ -1,0 +1,7 @@
+Running: xsim.dir/Calculator_total_wrapper_tb_time_impl/xsimk.exe -simmode gui -wdb Calculator_total_wrapper_tb_time_impl.wdb -simrunnum 0 -socket 49914
+Design successfully loaded
+Design Loading Memory Usage: 9368 KB (Peak: 9368 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 12672 KB (Peak: 12672 KB)
+Simulation CPU Usage: 1734 ms

@@ -1,0 +1,675 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xCCB85D2BCCB85D2B",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../EDA1.gen/sources_1/bd/binary_2_segment",
+      "name": "binary_2_segment",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xup_inv_0": "",
+      "xup_inv_1": "",
+      "xup_and2_0": "",
+      "xup_and3_0": "",
+      "xup_inv_2": "",
+      "xup_and2_1": "",
+      "xup_and2_2": "",
+      "xup_and2_3": "",
+      "xup_and2_4": "",
+      "xup_or2_0": "",
+      "xup_or2_1": "",
+      "xup_or2_2": "",
+      "xup_and3_1": "",
+      "display_select_0": "",
+      "display_select_1": "",
+      "display_select_2": "",
+      "display_select_3": "",
+      "display_select_4": "",
+      "display_select_5": "",
+      "display_select_6": "",
+      "Decoder7448_0": "",
+      "Decoder7448_1": "",
+      "Decoder7448_2": "",
+      "Decoder7448_3": ""
+    },
+    "ports": {
+      "S4": {
+        "direction": "I"
+      },
+      "S2": {
+        "direction": "I"
+      },
+      "S3": {
+        "direction": "I"
+      },
+      "S1": {
+        "direction": "I"
+      },
+      "GND": {
+        "direction": "I"
+      },
+      "b1": {
+        "direction": "I"
+      },
+      "b2": {
+        "direction": "I"
+      },
+      "b3": {
+        "direction": "I"
+      },
+      "a1": {
+        "direction": "I"
+      },
+      "a2": {
+        "direction": "I"
+      },
+      "a3": {
+        "direction": "I"
+      },
+      "AN0": {
+        "direction": "I"
+      },
+      "AN1": {
+        "direction": "I"
+      },
+      "AN2": {
+        "direction": "I"
+      },
+      "AN3": {
+        "direction": "I"
+      },
+      "a": {
+        "direction": "O"
+      },
+      "b": {
+        "direction": "O"
+      },
+      "c": {
+        "direction": "O"
+      },
+      "d": {
+        "direction": "O"
+      },
+      "e": {
+        "direction": "O"
+      },
+      "f": {
+        "direction": "O"
+      },
+      "g": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "xup_inv_0": {
+        "vlnv": "xilinx.com:xup:xup_inv:1.0",
+        "xci_name": "binary_2_segment_xup_inv_0_3",
+        "xci_path": "ip\\binary_2_segment_xup_inv_0_3\\binary_2_segment_xup_inv_0_3.xci",
+        "inst_hier_path": "xup_inv_0"
+      },
+      "xup_inv_1": {
+        "vlnv": "xilinx.com:xup:xup_inv:1.0",
+        "xci_name": "binary_2_segment_xup_inv_1_0",
+        "xci_path": "ip\\binary_2_segment_xup_inv_1_0\\binary_2_segment_xup_inv_1_0.xci",
+        "inst_hier_path": "xup_inv_1"
+      },
+      "xup_and2_0": {
+        "vlnv": "xilinx.com:xup:xup_and2:1.0",
+        "xci_name": "binary_2_segment_xup_and2_0_2",
+        "xci_path": "ip\\binary_2_segment_xup_and2_0_2\\binary_2_segment_xup_and2_0_2.xci",
+        "inst_hier_path": "xup_and2_0"
+      },
+      "xup_and3_0": {
+        "vlnv": "xilinx.com:xup:xup_and3:1.0",
+        "xci_name": "binary_2_segment_xup_and3_0_2",
+        "xci_path": "ip\\binary_2_segment_xup_and3_0_2\\binary_2_segment_xup_and3_0_2.xci",
+        "inst_hier_path": "xup_and3_0"
+      },
+      "xup_inv_2": {
+        "vlnv": "xilinx.com:xup:xup_inv:1.0",
+        "xci_name": "binary_2_segment_xup_inv_2_0",
+        "xci_path": "ip\\binary_2_segment_xup_inv_2_0\\binary_2_segment_xup_inv_2_0.xci",
+        "inst_hier_path": "xup_inv_2"
+      },
+      "xup_and2_1": {
+        "vlnv": "xilinx.com:xup:xup_and2:1.0",
+        "xci_name": "binary_2_segment_xup_and2_1_2",
+        "xci_path": "ip\\binary_2_segment_xup_and2_1_2\\binary_2_segment_xup_and2_1_2.xci",
+        "inst_hier_path": "xup_and2_1"
+      },
+      "xup_and2_2": {
+        "vlnv": "xilinx.com:xup:xup_and2:1.0",
+        "xci_name": "binary_2_segment_xup_and2_2_0",
+        "xci_path": "ip\\binary_2_segment_xup_and2_2_0\\binary_2_segment_xup_and2_2_0.xci",
+        "inst_hier_path": "xup_and2_2"
+      },
+      "xup_and2_3": {
+        "vlnv": "xilinx.com:xup:xup_and2:1.0",
+        "xci_name": "binary_2_segment_xup_and2_3_1",
+        "xci_path": "ip\\binary_2_segment_xup_and2_3_1\\binary_2_segment_xup_and2_3_1.xci",
+        "inst_hier_path": "xup_and2_3"
+      },
+      "xup_and2_4": {
+        "vlnv": "xilinx.com:xup:xup_and2:1.0",
+        "xci_name": "binary_2_segment_xup_and2_4_0",
+        "xci_path": "ip\\binary_2_segment_xup_and2_4_0\\binary_2_segment_xup_and2_4_0.xci",
+        "inst_hier_path": "xup_and2_4"
+      },
+      "xup_or2_0": {
+        "vlnv": "xilinx.com:xup:xup_or2:1.0",
+        "xci_name": "binary_2_segment_xup_or2_0_2",
+        "xci_path": "ip\\binary_2_segment_xup_or2_0_2\\binary_2_segment_xup_or2_0_2.xci",
+        "inst_hier_path": "xup_or2_0"
+      },
+      "xup_or2_1": {
+        "vlnv": "xilinx.com:xup:xup_or2:1.0",
+        "xci_name": "binary_2_segment_xup_or2_1_1",
+        "xci_path": "ip\\binary_2_segment_xup_or2_1_1\\binary_2_segment_xup_or2_1_1.xci",
+        "inst_hier_path": "xup_or2_1"
+      },
+      "xup_or2_2": {
+        "vlnv": "xilinx.com:xup:xup_or2:1.0",
+        "xci_name": "binary_2_segment_xup_or2_2_0",
+        "xci_path": "ip\\binary_2_segment_xup_or2_2_0\\binary_2_segment_xup_or2_2_0.xci",
+        "inst_hier_path": "xup_or2_2"
+      },
+      "xup_and3_1": {
+        "vlnv": "xilinx.com:xup:xup_and3:1.0",
+        "xci_name": "binary_2_segment_xup_and3_1_0",
+        "xci_path": "ip\\binary_2_segment_xup_and3_1_0\\binary_2_segment_xup_and3_1_0.xci",
+        "inst_hier_path": "xup_and3_1"
+      },
+      "display_select_0": {
+        "vlnv": "xilinx.com:user:display_select:1.0",
+        "xci_name": "binary_2_segment_display_select_0_6",
+        "xci_path": "ip\\binary_2_segment_display_select_0_6\\binary_2_segment_display_select_0_6.xci",
+        "inst_hier_path": "display_select_0"
+      },
+      "display_select_1": {
+        "vlnv": "xilinx.com:user:display_select:1.0",
+        "xci_name": "binary_2_segment_display_select_1_2",
+        "xci_path": "ip\\binary_2_segment_display_select_1_2\\binary_2_segment_display_select_1_2.xci",
+        "inst_hier_path": "display_select_1"
+      },
+      "display_select_2": {
+        "vlnv": "xilinx.com:user:display_select:1.0",
+        "xci_name": "binary_2_segment_display_select_2_0",
+        "xci_path": "ip\\binary_2_segment_display_select_2_0\\binary_2_segment_display_select_2_0.xci",
+        "inst_hier_path": "display_select_2"
+      },
+      "display_select_3": {
+        "vlnv": "xilinx.com:user:display_select:1.0",
+        "xci_name": "binary_2_segment_display_select_3_0",
+        "xci_path": "ip\\binary_2_segment_display_select_3_0\\binary_2_segment_display_select_3_0.xci",
+        "inst_hier_path": "display_select_3"
+      },
+      "display_select_4": {
+        "vlnv": "xilinx.com:user:display_select:1.0",
+        "xci_name": "binary_2_segment_display_select_4_0",
+        "xci_path": "ip\\binary_2_segment_display_select_4_0\\binary_2_segment_display_select_4_0.xci",
+        "inst_hier_path": "display_select_4"
+      },
+      "display_select_5": {
+        "vlnv": "xilinx.com:user:display_select:1.0",
+        "xci_name": "binary_2_segment_display_select_5_0",
+        "xci_path": "ip\\binary_2_segment_display_select_5_0\\binary_2_segment_display_select_5_0.xci",
+        "inst_hier_path": "display_select_5"
+      },
+      "display_select_6": {
+        "vlnv": "xilinx.com:user:display_select:1.0",
+        "xci_name": "binary_2_segment_display_select_6_0",
+        "xci_path": "ip\\binary_2_segment_display_select_6_0\\binary_2_segment_display_select_6_0.xci",
+        "inst_hier_path": "display_select_6"
+      },
+      "Decoder7448_0": {
+        "vlnv": "xilinx.com:user:Decoder7448:1.0",
+        "xci_name": "binary_2_segment_Decoder7448_0_0",
+        "xci_path": "ip\\binary_2_segment_Decoder7448_0_0\\binary_2_segment_Decoder7448_0_0.xci",
+        "inst_hier_path": "Decoder7448_0"
+      },
+      "Decoder7448_1": {
+        "vlnv": "xilinx.com:user:Decoder7448:1.0",
+        "xci_name": "binary_2_segment_Decoder7448_1_0",
+        "xci_path": "ip\\binary_2_segment_Decoder7448_1_0\\binary_2_segment_Decoder7448_1_0.xci",
+        "inst_hier_path": "Decoder7448_1"
+      },
+      "Decoder7448_2": {
+        "vlnv": "xilinx.com:user:Decoder7448:1.0",
+        "xci_name": "binary_2_segment_Decoder7448_2_1",
+        "xci_path": "ip\\binary_2_segment_Decoder7448_2_1\\binary_2_segment_Decoder7448_2_1.xci",
+        "inst_hier_path": "Decoder7448_2"
+      },
+      "Decoder7448_3": {
+        "vlnv": "xilinx.com:user:Decoder7448:1.0",
+        "xci_name": "binary_2_segment_Decoder7448_3_0",
+        "xci_path": "ip\\binary_2_segment_Decoder7448_3_0\\binary_2_segment_Decoder7448_3_0.xci",
+        "inst_hier_path": "Decoder7448_3"
+      }
+    },
+    "nets": {
+      "AN0_1": {
+        "ports": [
+          "AN0",
+          "display_select_0/AN0",
+          "display_select_1/AN0",
+          "display_select_2/AN0",
+          "display_select_3/AN0",
+          "display_select_4/AN0",
+          "display_select_5/AN0",
+          "display_select_6/AN0"
+        ]
+      },
+      "AN1_1": {
+        "ports": [
+          "AN1",
+          "display_select_0/AN1",
+          "display_select_1/AN1",
+          "display_select_2/AN1",
+          "display_select_3/AN1",
+          "display_select_4/AN1",
+          "display_select_5/AN1",
+          "display_select_6/AN1"
+        ]
+      },
+      "AN2_1": {
+        "ports": [
+          "AN2",
+          "display_select_0/AN2",
+          "display_select_1/AN2",
+          "display_select_2/AN2",
+          "display_select_3/AN2",
+          "display_select_4/AN2",
+          "display_select_5/AN2",
+          "display_select_6/AN2"
+        ]
+      },
+      "AN3_1": {
+        "ports": [
+          "AN3",
+          "display_select_0/AN3",
+          "display_select_1/AN3",
+          "display_select_2/AN3",
+          "display_select_3/AN3",
+          "display_select_4/AN3",
+          "display_select_5/AN3",
+          "display_select_6/AN3"
+        ]
+      },
+      "Decoder7448_0_a": {
+        "ports": [
+          "Decoder7448_0/a",
+          "display_select_0/a1"
+        ]
+      },
+      "Decoder7448_0_b": {
+        "ports": [
+          "Decoder7448_0/b",
+          "display_select_6/a1"
+        ]
+      },
+      "Decoder7448_0_c": {
+        "ports": [
+          "Decoder7448_0/c",
+          "display_select_1/a1"
+        ]
+      },
+      "Decoder7448_0_d": {
+        "ports": [
+          "Decoder7448_0/d",
+          "display_select_2/a1"
+        ]
+      },
+      "Decoder7448_0_e": {
+        "ports": [
+          "Decoder7448_0/e",
+          "display_select_3/a1"
+        ]
+      },
+      "Decoder7448_0_f": {
+        "ports": [
+          "Decoder7448_0/f",
+          "display_select_4/a1"
+        ]
+      },
+      "Decoder7448_0_g": {
+        "ports": [
+          "Decoder7448_0/g",
+          "display_select_5/a1"
+        ]
+      },
+      "Decoder7448_1_a": {
+        "ports": [
+          "Decoder7448_1/a",
+          "display_select_0/a3"
+        ]
+      },
+      "Decoder7448_1_b": {
+        "ports": [
+          "Decoder7448_1/b",
+          "display_select_6/a3"
+        ]
+      },
+      "Decoder7448_1_c": {
+        "ports": [
+          "Decoder7448_1/c",
+          "display_select_1/a3"
+        ]
+      },
+      "Decoder7448_1_d": {
+        "ports": [
+          "Decoder7448_1/d",
+          "display_select_2/a3"
+        ]
+      },
+      "Decoder7448_1_e": {
+        "ports": [
+          "Decoder7448_1/e",
+          "display_select_3/a3"
+        ]
+      },
+      "Decoder7448_1_f": {
+        "ports": [
+          "Decoder7448_1/f",
+          "display_select_4/a3"
+        ]
+      },
+      "Decoder7448_1_g": {
+        "ports": [
+          "Decoder7448_1/g",
+          "display_select_5/a3"
+        ]
+      },
+      "Decoder7448_2_a": {
+        "ports": [
+          "Decoder7448_2/a",
+          "display_select_0/a2"
+        ]
+      },
+      "Decoder7448_2_b": {
+        "ports": [
+          "Decoder7448_2/b",
+          "display_select_6/a2"
+        ]
+      },
+      "Decoder7448_2_c": {
+        "ports": [
+          "Decoder7448_2/c",
+          "display_select_1/a2"
+        ]
+      },
+      "Decoder7448_2_d": {
+        "ports": [
+          "Decoder7448_2/d",
+          "display_select_2/a2"
+        ]
+      },
+      "Decoder7448_2_e": {
+        "ports": [
+          "Decoder7448_2/e",
+          "display_select_3/a2"
+        ]
+      },
+      "Decoder7448_2_f": {
+        "ports": [
+          "Decoder7448_2/f",
+          "display_select_4/a2"
+        ]
+      },
+      "Decoder7448_2_g": {
+        "ports": [
+          "Decoder7448_2/g",
+          "display_select_5/a2"
+        ]
+      },
+      "Decoder7448_3_a": {
+        "ports": [
+          "Decoder7448_3/a",
+          "display_select_0/a4"
+        ]
+      },
+      "Decoder7448_3_b": {
+        "ports": [
+          "Decoder7448_3/b",
+          "display_select_6/a4"
+        ]
+      },
+      "Decoder7448_3_c": {
+        "ports": [
+          "Decoder7448_3/c",
+          "display_select_1/a4"
+        ]
+      },
+      "Decoder7448_3_d": {
+        "ports": [
+          "Decoder7448_3/d",
+          "display_select_2/a4"
+        ]
+      },
+      "Decoder7448_3_e": {
+        "ports": [
+          "Decoder7448_3/e",
+          "display_select_3/a4"
+        ]
+      },
+      "Decoder7448_3_f": {
+        "ports": [
+          "Decoder7448_3/f",
+          "display_select_4/a4"
+        ]
+      },
+      "Decoder7448_3_g": {
+        "ports": [
+          "Decoder7448_3/g",
+          "display_select_5/a4"
+        ]
+      },
+      "GND_1": {
+        "ports": [
+          "GND",
+          "Decoder7448_1/BCD_D",
+          "Decoder7448_2/BCD_B",
+          "Decoder7448_2/BCD_C",
+          "Decoder7448_2/BCD_D",
+          "Decoder7448_3/BCD_D"
+        ]
+      },
+      "S1_1": {
+        "ports": [
+          "S1",
+          "Decoder7448_0/BCD_A"
+        ]
+      },
+      "S2_1": {
+        "ports": [
+          "S2",
+          "xup_inv_1/a",
+          "xup_and2_1/b",
+          "xup_and2_2/a",
+          "xup_and2_4/a"
+        ]
+      },
+      "S3_1": {
+        "ports": [
+          "S3",
+          "xup_and2_0/b",
+          "xup_and2_3/b",
+          "xup_and2_4/b",
+          "xup_inv_2/a",
+          "xup_and3_0/a"
+        ]
+      },
+      "S4_1": {
+        "ports": [
+          "S4",
+          "xup_inv_0/a",
+          "xup_and2_3/a",
+          "xup_and3_0/b",
+          "xup_and2_1/a",
+          "xup_and3_1/a"
+        ]
+      },
+      "a1_1": {
+        "ports": [
+          "a1",
+          "Decoder7448_3/BCD_A"
+        ]
+      },
+      "a2_1": {
+        "ports": [
+          "a2",
+          "Decoder7448_3/BCD_B"
+        ]
+      },
+      "a3_1": {
+        "ports": [
+          "a3",
+          "Decoder7448_3/BCD_C"
+        ]
+      },
+      "b1_1": {
+        "ports": [
+          "b1",
+          "Decoder7448_1/BCD_A"
+        ]
+      },
+      "b2_1": {
+        "ports": [
+          "b2",
+          "Decoder7448_1/BCD_B"
+        ]
+      },
+      "b3_1": {
+        "ports": [
+          "b3",
+          "Decoder7448_1/BCD_C"
+        ]
+      },
+      "display_select_0_a": {
+        "ports": [
+          "display_select_0/a",
+          "a"
+        ]
+      },
+      "display_select_1_a": {
+        "ports": [
+          "display_select_1/a",
+          "c"
+        ]
+      },
+      "display_select_2_a": {
+        "ports": [
+          "display_select_2/a",
+          "d"
+        ]
+      },
+      "display_select_3_a": {
+        "ports": [
+          "display_select_3/a",
+          "e"
+        ]
+      },
+      "display_select_4_a": {
+        "ports": [
+          "display_select_4/a",
+          "f"
+        ]
+      },
+      "display_select_5_a": {
+        "ports": [
+          "display_select_5/a",
+          "g"
+        ]
+      },
+      "display_select_6_a": {
+        "ports": [
+          "display_select_6/a",
+          "b"
+        ]
+      },
+      "xup_and2_0_y": {
+        "ports": [
+          "xup_and2_0/y",
+          "xup_or2_1/b"
+        ]
+      },
+      "xup_and2_1_y": {
+        "ports": [
+          "xup_and2_1/y",
+          "xup_or2_0/a"
+        ]
+      },
+      "xup_and2_2_y": {
+        "ports": [
+          "xup_and2_2/y",
+          "xup_or2_2/b"
+        ]
+      },
+      "xup_and2_3_y": {
+        "ports": [
+          "xup_and2_3/y",
+          "xup_or2_0/b"
+        ]
+      },
+      "xup_and2_4_y": {
+        "ports": [
+          "xup_and2_4/y",
+          "xup_or2_1/a"
+        ]
+      },
+      "xup_and3_0_y": {
+        "ports": [
+          "xup_and3_0/y",
+          "xup_or2_2/a"
+        ]
+      },
+      "xup_and3_1_y": {
+        "ports": [
+          "xup_and3_1/y",
+          "Decoder7448_0/BCD_D"
+        ]
+      },
+      "xup_inv_0_y": {
+        "ports": [
+          "xup_inv_0/y",
+          "xup_and2_0/a",
+          "xup_and2_2/b"
+        ]
+      },
+      "xup_inv_1_y": {
+        "ports": [
+          "xup_inv_1/y",
+          "xup_and3_0/c",
+          "xup_and3_1/c"
+        ]
+      },
+      "xup_inv_2_y": {
+        "ports": [
+          "xup_inv_2/y",
+          "xup_and3_1/b"
+        ]
+      },
+      "xup_or2_0_y": {
+        "ports": [
+          "xup_or2_0/y",
+          "Decoder7448_2/BCD_A"
+        ]
+      },
+      "xup_or2_1_y": {
+        "ports": [
+          "xup_or2_1/y",
+          "Decoder7448_0/BCD_C"
+        ]
+      },
+      "xup_or2_2_y": {
+        "ports": [
+          "xup_or2_2/y",
+          "Decoder7448_0/BCD_B"
+        ]
+      }
+    }
+  }
+}

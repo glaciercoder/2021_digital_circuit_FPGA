@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Nov 20 14:11:31 2021" VIVADOVERSION="2021.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="Adder_1" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_xor2_0" PORT="a"/>
+        <CONNECTION INSTANCE="xup_nor2_2" PORT="a"/>
+        <CONNECTION INSTANCE="xup_nor2_3" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_xor2_0" PORT="b"/>
+        <CONNECTION INSTANCE="xup_nor2_3" PORT="b"/>
+        <CONNECTION INSTANCE="xup_nor2_0" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="CI" SIGIS="undef" SIGNAME="External_Ports_CI">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_nor2_2" PORT="b"/>
+        <CONNECTION INSTANCE="xup_nor2_0" PORT="a"/>
+        <CONNECTION INSTANCE="xup_xor2_1" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="CO" SIGIS="undef" SIGNAME="xup_nor3_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_nor3_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S" SIGIS="undef" SIGNAME="xup_xor2_1_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_xor2_1" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/xup_nor2_0" HWVERSION="1.0" INSTANCE="xup_nor2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_nor2" VLNV="xilinx.com:xup:xup_nor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="Adder_1_xup_nor2_0_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_CI">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CI"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_nor2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_nor3_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_nor2_2" HWVERSION="1.0" INSTANCE="xup_nor2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_nor2" VLNV="xilinx.com:xup:xup_nor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="Adder_1_xup_nor2_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_CI">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CI"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_nor2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_nor3_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_nor2_3" HWVERSION="1.0" INSTANCE="xup_nor2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_nor2" VLNV="xilinx.com:xup:xup_nor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="Adder_1_xup_nor2_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_nor2_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_nor3_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_nor3_0" HWVERSION="1.0" INSTANCE="xup_nor3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_nor3" VLNV="xilinx.com:xup:xup_nor3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="Adder_1_xup_nor3_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_nor2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_nor2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_nor2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_nor2_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_nor2_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_nor2_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_nor3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CO"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_xor2_0" HWVERSION="1.0" INSTANCE="xup_xor2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_xor2" VLNV="xilinx.com:xup:xup_xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="Adder_1_xup_xor2_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_xor2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_xor2_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_xor2_1" HWVERSION="1.0" INSTANCE="xup_xor2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_xor2" VLNV="xilinx.com:xup:xup_xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="Adder_1_xup_xor2_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_xor2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_xor2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_CI">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CI"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_xor2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

@@ -1,0 +1,263 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xACF6E7A0ACF6E7A",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../EDA1.gen/sources_1/bd/input_5_complementor",
+      "name": "input_5_complementor",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xup_xor2_0": "",
+      "xup_xor2_1": "",
+      "xup_xor2_2": "",
+      "xup_xor2_3": "",
+      "xup_xor2_4": "",
+      "Adder_1_0": "",
+      "Adder_1_1": "",
+      "Adder_1_2": "",
+      "Adder_1_3": "",
+      "Adder_1_4": ""
+    },
+    "ports": {
+      "a4": {
+        "direction": "I"
+      },
+      "Sign": {
+        "direction": "I"
+      },
+      "a2": {
+        "direction": "I"
+      },
+      "a3": {
+        "direction": "I"
+      },
+      "a1": {
+        "direction": "I"
+      },
+      "a5": {
+        "direction": "I"
+      },
+      "S1": {
+        "direction": "O"
+      },
+      "S2": {
+        "direction": "O"
+      },
+      "S3": {
+        "direction": "O"
+      },
+      "S4": {
+        "direction": "O"
+      },
+      "S5": {
+        "direction": "O"
+      },
+      "GND": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "xup_xor2_0": {
+        "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+        "xci_name": "input_5_complementor_xup_xor2_0_0",
+        "xci_path": "ip\\input_5_complementor_xup_xor2_0_0\\input_5_complementor_xup_xor2_0_0.xci",
+        "inst_hier_path": "xup_xor2_0"
+      },
+      "xup_xor2_1": {
+        "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+        "xci_name": "input_5_complementor_xup_xor2_0_1",
+        "xci_path": "ip\\input_5_complementor_xup_xor2_0_1\\input_5_complementor_xup_xor2_0_1.xci",
+        "inst_hier_path": "xup_xor2_1"
+      },
+      "xup_xor2_2": {
+        "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+        "xci_name": "input_5_complementor_xup_xor2_0_2",
+        "xci_path": "ip\\input_5_complementor_xup_xor2_0_2\\input_5_complementor_xup_xor2_0_2.xci",
+        "inst_hier_path": "xup_xor2_2"
+      },
+      "xup_xor2_3": {
+        "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+        "xci_name": "input_5_complementor_xup_xor2_0_3",
+        "xci_path": "ip\\input_5_complementor_xup_xor2_0_3\\input_5_complementor_xup_xor2_0_3.xci",
+        "inst_hier_path": "xup_xor2_3"
+      },
+      "xup_xor2_4": {
+        "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+        "xci_name": "input_5_complementor_xup_xor2_0_4",
+        "xci_path": "ip\\input_5_complementor_xup_xor2_0_4\\input_5_complementor_xup_xor2_0_4.xci",
+        "inst_hier_path": "xup_xor2_4"
+      },
+      "Adder_1_0": {
+        "vlnv": "xilinx.com:user:Adder_1:1.0",
+        "xci_name": "input_5_complementor_Adder_1_0_0",
+        "xci_path": "ip\\input_5_complementor_Adder_1_0_0\\input_5_complementor_Adder_1_0_0.xci",
+        "inst_hier_path": "Adder_1_0"
+      },
+      "Adder_1_1": {
+        "vlnv": "xilinx.com:user:Adder_1:1.0",
+        "xci_name": "input_5_complementor_Adder_1_0_1",
+        "xci_path": "ip\\input_5_complementor_Adder_1_0_1\\input_5_complementor_Adder_1_0_1.xci",
+        "inst_hier_path": "Adder_1_1"
+      },
+      "Adder_1_2": {
+        "vlnv": "xilinx.com:user:Adder_1:1.0",
+        "xci_name": "input_5_complementor_Adder_1_1_0",
+        "xci_path": "ip\\input_5_complementor_Adder_1_1_0\\input_5_complementor_Adder_1_1_0.xci",
+        "inst_hier_path": "Adder_1_2"
+      },
+      "Adder_1_3": {
+        "vlnv": "xilinx.com:user:Adder_1:1.0",
+        "xci_name": "input_5_complementor_Adder_1_1_1",
+        "xci_path": "ip\\input_5_complementor_Adder_1_1_1\\input_5_complementor_Adder_1_1_1.xci",
+        "inst_hier_path": "Adder_1_3"
+      },
+      "Adder_1_4": {
+        "vlnv": "xilinx.com:user:Adder_1:1.0",
+        "xci_name": "input_5_complementor_Adder_1_3_0",
+        "xci_path": "ip\\input_5_complementor_Adder_1_3_0\\input_5_complementor_Adder_1_3_0.xci",
+        "inst_hier_path": "Adder_1_4"
+      }
+    },
+    "nets": {
+      "Adder_1_0_CO": {
+        "ports": [
+          "Adder_1_0/CO",
+          "Adder_1_1/a"
+        ]
+      },
+      "Adder_1_0_S": {
+        "ports": [
+          "Adder_1_0/S",
+          "S1"
+        ]
+      },
+      "Adder_1_1_CO": {
+        "ports": [
+          "Adder_1_1/CO",
+          "Adder_1_2/a"
+        ]
+      },
+      "Adder_1_1_S": {
+        "ports": [
+          "Adder_1_1/S",
+          "S2"
+        ]
+      },
+      "Adder_1_2_CO": {
+        "ports": [
+          "Adder_1_2/CO",
+          "Adder_1_3/a"
+        ]
+      },
+      "Adder_1_2_S": {
+        "ports": [
+          "Adder_1_2/S",
+          "S3"
+        ]
+      },
+      "Adder_1_3_CO": {
+        "ports": [
+          "Adder_1_3/CO",
+          "Adder_1_4/a"
+        ]
+      },
+      "Adder_1_3_S": {
+        "ports": [
+          "Adder_1_3/S",
+          "S4"
+        ]
+      },
+      "Adder_1_4_S": {
+        "ports": [
+          "Adder_1_4/S",
+          "S5"
+        ]
+      },
+      "GND_1": {
+        "ports": [
+          "GND",
+          "Adder_1_0/CI",
+          "Adder_1_1/CI",
+          "Adder_1_2/CI",
+          "Adder_1_3/CI",
+          "Adder_1_4/CI"
+        ]
+      },
+      "Sign_1": {
+        "ports": [
+          "Sign",
+          "xup_xor2_0/b",
+          "xup_xor2_1/b",
+          "xup_xor2_3/a",
+          "xup_xor2_2/a",
+          "xup_xor2_4/b",
+          "Adder_1_0/b"
+        ]
+      },
+      "a1_1": {
+        "ports": [
+          "a1",
+          "xup_xor2_2/b"
+        ]
+      },
+      "a2_1": {
+        "ports": [
+          "a2",
+          "xup_xor2_1/a"
+        ]
+      },
+      "a3_1": {
+        "ports": [
+          "a3",
+          "xup_xor2_3/b"
+        ]
+      },
+      "a4_1": {
+        "ports": [
+          "a4",
+          "xup_xor2_0/a"
+        ]
+      },
+      "a5_1": {
+        "ports": [
+          "a5",
+          "xup_xor2_4/a"
+        ]
+      },
+      "xup_xor2_0_y": {
+        "ports": [
+          "xup_xor2_0/y",
+          "Adder_1_3/b"
+        ]
+      },
+      "xup_xor2_1_y": {
+        "ports": [
+          "xup_xor2_1/y",
+          "Adder_1_1/b"
+        ]
+      },
+      "xup_xor2_2_y": {
+        "ports": [
+          "xup_xor2_2/y",
+          "Adder_1_0/a"
+        ]
+      },
+      "xup_xor2_3_y": {
+        "ports": [
+          "xup_xor2_3/y",
+          "Adder_1_2/b"
+        ]
+      },
+      "xup_xor2_4_y": {
+        "ports": [
+          "xup_xor2_4/y",
+          "Adder_1_4/b"
+        ]
+      }
+    }
+  }
+}

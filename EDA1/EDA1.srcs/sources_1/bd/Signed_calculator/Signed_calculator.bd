@@ -1,0 +1,269 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xE68F55A7E68F55A7",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../EDA1.gen/sources_1/bd/Signed_calculator",
+      "name": "Signed_calculator",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Adder_5_0": "",
+      "input_5_complementor_0": "",
+      "input_5_complementor_1": "",
+      "input_5_complementor_2": ""
+    },
+    "ports": {
+      "GND": {
+        "direction": "I"
+      },
+      "Sign_a": {
+        "direction": "I"
+      },
+      "Sign_b": {
+        "direction": "I"
+      },
+      "a1": {
+        "direction": "I"
+      },
+      "a2": {
+        "direction": "I"
+      },
+      "a3": {
+        "direction": "I"
+      },
+      "b1": {
+        "direction": "I"
+      },
+      "b2": {
+        "direction": "I"
+      },
+      "b3": {
+        "direction": "I"
+      },
+      "Sign": {
+        "direction": "O"
+      },
+      "S1": {
+        "direction": "O"
+      },
+      "S2": {
+        "direction": "O"
+      },
+      "S3": {
+        "direction": "O"
+      },
+      "S4": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "Adder_5_0": {
+        "vlnv": "xilinx.com:user:Adder_5:1.0",
+        "xci_name": "Signed_calculator_Adder_5_0_0",
+        "xci_path": "ip\\Signed_calculator_Adder_5_0_0_1\\Signed_calculator_Adder_5_0_0.xci",
+        "inst_hier_path": "Adder_5_0"
+      },
+      "input_5_complementor_0": {
+        "vlnv": "xilinx.com:user:input_5_complementor:1.0",
+        "xci_name": "Signed_calculator_input_5_complementor_0_0",
+        "xci_path": "ip\\Signed_calculator_input_5_complementor_0_0\\Signed_calculator_input_5_complementor_0_0.xci",
+        "inst_hier_path": "input_5_complementor_0"
+      },
+      "input_5_complementor_1": {
+        "vlnv": "xilinx.com:user:input_5_complementor:1.0",
+        "xci_name": "Signed_calculator_input_5_complementor_0_1",
+        "xci_path": "ip\\Signed_calculator_input_5_complementor_0_1\\Signed_calculator_input_5_complementor_0_1.xci",
+        "inst_hier_path": "input_5_complementor_1"
+      },
+      "input_5_complementor_2": {
+        "vlnv": "xilinx.com:user:input_5_complementor:1.0",
+        "xci_name": "Signed_calculator_input_5_complementor_0_2",
+        "xci_path": "ip\\Signed_calculator_input_5_complementor_0_2\\Signed_calculator_input_5_complementor_0_2.xci",
+        "inst_hier_path": "input_5_complementor_2"
+      }
+    },
+    "nets": {
+      "Adder_5_0_S1": {
+        "ports": [
+          "Adder_5_0/S1",
+          "input_5_complementor_2/a1"
+        ]
+      },
+      "Adder_5_0_S2": {
+        "ports": [
+          "Adder_5_0/S2",
+          "input_5_complementor_2/a2"
+        ]
+      },
+      "Adder_5_0_S3": {
+        "ports": [
+          "Adder_5_0/S3",
+          "input_5_complementor_2/a3"
+        ]
+      },
+      "Adder_5_0_S4": {
+        "ports": [
+          "Adder_5_0/S4",
+          "input_5_complementor_2/a4"
+        ]
+      },
+      "Adder_5_0_S5": {
+        "ports": [
+          "Adder_5_0/S5",
+          "Sign",
+          "input_5_complementor_2/Sign"
+        ]
+      },
+      "GND_1": {
+        "ports": [
+          "GND",
+          "input_5_complementor_0/GND",
+          "input_5_complementor_1/GND",
+          "input_5_complementor_0/a4",
+          "input_5_complementor_0/a5",
+          "input_5_complementor_1/a4",
+          "input_5_complementor_1/a5",
+          "Adder_5_0/CI",
+          "input_5_complementor_2/GND",
+          "input_5_complementor_2/a5"
+        ]
+      },
+      "Sign_a_1": {
+        "ports": [
+          "Sign_a",
+          "input_5_complementor_0/Sign"
+        ]
+      },
+      "Sign_b_1": {
+        "ports": [
+          "Sign_b",
+          "input_5_complementor_1/Sign"
+        ]
+      },
+      "a1_1": {
+        "ports": [
+          "a1",
+          "input_5_complementor_0/a1"
+        ]
+      },
+      "a2_1": {
+        "ports": [
+          "a2",
+          "input_5_complementor_0/a2"
+        ]
+      },
+      "a3_1": {
+        "ports": [
+          "a3",
+          "input_5_complementor_0/a3"
+        ]
+      },
+      "b1_1": {
+        "ports": [
+          "b1",
+          "input_5_complementor_1/a1"
+        ]
+      },
+      "b2_1": {
+        "ports": [
+          "b2",
+          "input_5_complementor_1/a2"
+        ]
+      },
+      "b3_1": {
+        "ports": [
+          "b3",
+          "input_5_complementor_1/a3"
+        ]
+      },
+      "input_5_complementor_0_S1": {
+        "ports": [
+          "input_5_complementor_0/S1",
+          "Adder_5_0/a1"
+        ]
+      },
+      "input_5_complementor_0_S2": {
+        "ports": [
+          "input_5_complementor_0/S2",
+          "Adder_5_0/a2"
+        ]
+      },
+      "input_5_complementor_0_S3": {
+        "ports": [
+          "input_5_complementor_0/S3",
+          "Adder_5_0/a3"
+        ]
+      },
+      "input_5_complementor_0_S4": {
+        "ports": [
+          "input_5_complementor_0/S4",
+          "Adder_5_0/a4"
+        ]
+      },
+      "input_5_complementor_0_S5": {
+        "ports": [
+          "input_5_complementor_0/S5",
+          "Adder_5_0/a5"
+        ]
+      },
+      "input_5_complementor_1_S1": {
+        "ports": [
+          "input_5_complementor_1/S1",
+          "Adder_5_0/b1"
+        ]
+      },
+      "input_5_complementor_1_S2": {
+        "ports": [
+          "input_5_complementor_1/S2",
+          "Adder_5_0/b2"
+        ]
+      },
+      "input_5_complementor_1_S3": {
+        "ports": [
+          "input_5_complementor_1/S3",
+          "Adder_5_0/b3"
+        ]
+      },
+      "input_5_complementor_1_S4": {
+        "ports": [
+          "input_5_complementor_1/S4",
+          "Adder_5_0/b4"
+        ]
+      },
+      "input_5_complementor_1_S5": {
+        "ports": [
+          "input_5_complementor_1/S5",
+          "Adder_5_0/b5"
+        ]
+      },
+      "input_5_complementor_2_S1": {
+        "ports": [
+          "input_5_complementor_2/S1",
+          "S1"
+        ]
+      },
+      "input_5_complementor_2_S2": {
+        "ports": [
+          "input_5_complementor_2/S2",
+          "S2"
+        ]
+      },
+      "input_5_complementor_2_S3": {
+        "ports": [
+          "input_5_complementor_2/S3",
+          "S3"
+        ]
+      },
+      "input_5_complementor_2_S4": {
+        "ports": [
+          "input_5_complementor_2/S4",
+          "S4"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1143 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Nov 20 14:11:16 2021" VIVADOVERSION="2021.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="binary_2_segment" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="S4" SIGIS="undef" SIGNAME="External_Ports_S4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_inv_0" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and2_3" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and3_0" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and2_1" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and3_1" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="S2" SIGIS="undef" SIGNAME="External_Ports_S2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_inv_1" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and2_1" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and2_2" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and2_4" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="S3" SIGIS="undef" SIGNAME="External_Ports_S3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_and2_0" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and2_3" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and2_4" PORT="b"/>
+        <CONNECTION INSTANCE="xup_inv_2" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and3_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="S1" SIGIS="undef" SIGNAME="External_Ports_S1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Decoder7448_0" PORT="BCD_A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="GND" SIGIS="undef" SIGNAME="External_Ports_GND">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Decoder7448_1" PORT="BCD_D"/>
+        <CONNECTION INSTANCE="Decoder7448_2" PORT="BCD_B"/>
+        <CONNECTION INSTANCE="Decoder7448_2" PORT="BCD_C"/>
+        <CONNECTION INSTANCE="Decoder7448_2" PORT="BCD_D"/>
+        <CONNECTION INSTANCE="Decoder7448_3" PORT="BCD_D"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b1" SIGIS="undef" SIGNAME="External_Ports_b1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Decoder7448_1" PORT="BCD_A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b2" SIGIS="undef" SIGNAME="External_Ports_b2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Decoder7448_1" PORT="BCD_B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b3" SIGIS="undef" SIGNAME="External_Ports_b3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Decoder7448_1" PORT="BCD_C"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="External_Ports_a1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Decoder7448_3" PORT="BCD_A"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="External_Ports_a2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Decoder7448_3" PORT="BCD_B"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="External_Ports_a3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Decoder7448_3" PORT="BCD_C"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="AN0" SIGIS="undef" SIGNAME="External_Ports_AN0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="display_select_0" PORT="AN0"/>
+        <CONNECTION INSTANCE="display_select_1" PORT="AN0"/>
+        <CONNECTION INSTANCE="display_select_2" PORT="AN0"/>
+        <CONNECTION INSTANCE="display_select_3" PORT="AN0"/>
+        <CONNECTION INSTANCE="display_select_4" PORT="AN0"/>
+        <CONNECTION INSTANCE="display_select_5" PORT="AN0"/>
+        <CONNECTION INSTANCE="display_select_6" PORT="AN0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="AN1" SIGIS="undef" SIGNAME="External_Ports_AN1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="display_select_0" PORT="AN1"/>
+        <CONNECTION INSTANCE="display_select_1" PORT="AN1"/>
+        <CONNECTION INSTANCE="display_select_2" PORT="AN1"/>
+        <CONNECTION INSTANCE="display_select_3" PORT="AN1"/>
+        <CONNECTION INSTANCE="display_select_4" PORT="AN1"/>
+        <CONNECTION INSTANCE="display_select_5" PORT="AN1"/>
+        <CONNECTION INSTANCE="display_select_6" PORT="AN1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="AN2" SIGIS="undef" SIGNAME="External_Ports_AN2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="display_select_0" PORT="AN2"/>
+        <CONNECTION INSTANCE="display_select_1" PORT="AN2"/>
+        <CONNECTION INSTANCE="display_select_2" PORT="AN2"/>
+        <CONNECTION INSTANCE="display_select_3" PORT="AN2"/>
+        <CONNECTION INSTANCE="display_select_4" PORT="AN2"/>
+        <CONNECTION INSTANCE="display_select_5" PORT="AN2"/>
+        <CONNECTION INSTANCE="display_select_6" PORT="AN2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="AN3" SIGIS="undef" SIGNAME="External_Ports_AN3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="display_select_0" PORT="AN3"/>
+        <CONNECTION INSTANCE="display_select_1" PORT="AN3"/>
+        <CONNECTION INSTANCE="display_select_2" PORT="AN3"/>
+        <CONNECTION INSTANCE="display_select_3" PORT="AN3"/>
+        <CONNECTION INSTANCE="display_select_4" PORT="AN3"/>
+        <CONNECTION INSTANCE="display_select_5" PORT="AN3"/>
+        <CONNECTION INSTANCE="display_select_6" PORT="AN3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="display_select_0_a">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="display_select_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="b" SIGIS="undef" SIGNAME="display_select_6_a">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="display_select_6" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="display_select_1_a">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="display_select_1" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="d" SIGIS="undef" SIGNAME="display_select_2_a">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="display_select_2" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="e" SIGIS="undef" SIGNAME="display_select_3_a">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="display_select_3" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="display_select_4_a">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="display_select_4" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="display_select_5_a">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="display_select_5" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/Decoder7448_0" HWVERSION="1.0" INSTANCE="Decoder7448_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Decoder7448" VLNV="xilinx.com:user:Decoder7448:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_Decoder7448_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="BCD_A" SIGIS="undef" SIGNAME="External_Ports_S1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="BCD_B" SIGIS="undef" SIGNAME="xup_or2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="BCD_C" SIGIS="undef" SIGNAME="xup_or2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="BCD_D" SIGIS="undef" SIGNAME="xup_and3_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="Decoder7448_0_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_0" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="b" SIGIS="undef" SIGNAME="Decoder7448_0_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_6" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="Decoder7448_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_1" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d" SIGIS="undef" SIGNAME="Decoder7448_0_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_2" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="e" SIGIS="undef" SIGNAME="Decoder7448_0_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_3" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="Decoder7448_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_4" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="Decoder7448_0_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_5" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/Decoder7448_1" HWVERSION="1.0" INSTANCE="Decoder7448_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Decoder7448" VLNV="xilinx.com:user:Decoder7448:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_Decoder7448_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="BCD_A" SIGIS="undef" SIGNAME="External_Ports_b1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="BCD_B" SIGIS="undef" SIGNAME="External_Ports_b2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="BCD_C" SIGIS="undef" SIGNAME="External_Ports_b3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="BCD_D" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="Decoder7448_1_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_0" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="b" SIGIS="undef" SIGNAME="Decoder7448_1_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_6" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="Decoder7448_1_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_1" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d" SIGIS="undef" SIGNAME="Decoder7448_1_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_2" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="e" SIGIS="undef" SIGNAME="Decoder7448_1_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_3" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="Decoder7448_1_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_4" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="Decoder7448_1_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_5" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/Decoder7448_2" HWVERSION="1.0" INSTANCE="Decoder7448_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Decoder7448" VLNV="xilinx.com:user:Decoder7448:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_Decoder7448_2_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="BCD_A" SIGIS="undef" SIGNAME="xup_or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="BCD_B" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="BCD_C" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="BCD_D" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="Decoder7448_2_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_0" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="b" SIGIS="undef" SIGNAME="Decoder7448_2_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_6" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="Decoder7448_2_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_1" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d" SIGIS="undef" SIGNAME="Decoder7448_2_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_2" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="e" SIGIS="undef" SIGNAME="Decoder7448_2_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_3" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="Decoder7448_2_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_4" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="Decoder7448_2_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_5" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/Decoder7448_3" HWVERSION="1.0" INSTANCE="Decoder7448_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Decoder7448" VLNV="xilinx.com:user:Decoder7448:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_Decoder7448_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="BCD_A" SIGIS="undef" SIGNAME="External_Ports_a1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="BCD_B" SIGIS="undef" SIGNAME="External_Ports_a2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="BCD_C" SIGIS="undef" SIGNAME="External_Ports_a3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="BCD_D" SIGIS="undef" SIGNAME="External_Ports_GND">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="GND"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="Decoder7448_3_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_0" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="b" SIGIS="undef" SIGNAME="Decoder7448_3_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_6" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c" SIGIS="undef" SIGNAME="Decoder7448_3_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_1" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d" SIGIS="undef" SIGNAME="Decoder7448_3_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_2" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="e" SIGIS="undef" SIGNAME="Decoder7448_3_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_3" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f" SIGIS="undef" SIGNAME="Decoder7448_3_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_4" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="g" SIGIS="undef" SIGNAME="Decoder7448_3_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="display_select_5" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/display_select_0" HWVERSION="1.0" INSTANCE="display_select_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="display_select" VLNV="xilinx.com:user:display_select:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_display_select_0_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="AN0" SIGIS="undef" SIGNAME="External_Ports_AN0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN1" SIGIS="undef" SIGNAME="External_Ports_AN1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN2" SIGIS="undef" SIGNAME="External_Ports_AN2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN3" SIGIS="undef" SIGNAME="External_Ports_AN3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="display_select_0_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="Decoder7448_0_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="Decoder7448_2_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="Decoder7448_1_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="Decoder7448_3_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_3" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/display_select_1" HWVERSION="1.0" INSTANCE="display_select_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="display_select" VLNV="xilinx.com:user:display_select:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_display_select_1_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="AN0" SIGIS="undef" SIGNAME="External_Ports_AN0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN1" SIGIS="undef" SIGNAME="External_Ports_AN1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN2" SIGIS="undef" SIGNAME="External_Ports_AN2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN3" SIGIS="undef" SIGNAME="External_Ports_AN3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="display_select_1_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="Decoder7448_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="Decoder7448_2_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_2" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="Decoder7448_1_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="Decoder7448_3_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_3" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/display_select_2" HWVERSION="1.0" INSTANCE="display_select_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="display_select" VLNV="xilinx.com:user:display_select:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_display_select_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="AN0" SIGIS="undef" SIGNAME="External_Ports_AN0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN1" SIGIS="undef" SIGNAME="External_Ports_AN1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN2" SIGIS="undef" SIGNAME="External_Ports_AN2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN3" SIGIS="undef" SIGNAME="External_Ports_AN3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="display_select_2_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="Decoder7448_0_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="Decoder7448_2_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_2" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="Decoder7448_1_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_1" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="Decoder7448_3_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_3" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/display_select_3" HWVERSION="1.0" INSTANCE="display_select_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="display_select" VLNV="xilinx.com:user:display_select:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_display_select_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="AN0" SIGIS="undef" SIGNAME="External_Ports_AN0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN1" SIGIS="undef" SIGNAME="External_Ports_AN1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN2" SIGIS="undef" SIGNAME="External_Ports_AN2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN3" SIGIS="undef" SIGNAME="External_Ports_AN3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="display_select_3_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="Decoder7448_0_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_0" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="Decoder7448_2_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_2" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="Decoder7448_1_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_1" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="Decoder7448_3_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_3" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/display_select_4" HWVERSION="1.0" INSTANCE="display_select_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="display_select" VLNV="xilinx.com:user:display_select:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_display_select_4_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="AN0" SIGIS="undef" SIGNAME="External_Ports_AN0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN1" SIGIS="undef" SIGNAME="External_Ports_AN1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN2" SIGIS="undef" SIGNAME="External_Ports_AN2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN3" SIGIS="undef" SIGNAME="External_Ports_AN3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="display_select_4_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="Decoder7448_0_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_0" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="Decoder7448_2_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_2" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="Decoder7448_1_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_1" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="Decoder7448_3_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_3" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/display_select_5" HWVERSION="1.0" INSTANCE="display_select_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="display_select" VLNV="xilinx.com:user:display_select:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_display_select_5_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="AN0" SIGIS="undef" SIGNAME="External_Ports_AN0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN1" SIGIS="undef" SIGNAME="External_Ports_AN1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN2" SIGIS="undef" SIGNAME="External_Ports_AN2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN3" SIGIS="undef" SIGNAME="External_Ports_AN3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="display_select_5_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="Decoder7448_0_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_0" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="Decoder7448_2_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_2" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="Decoder7448_1_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_1" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="Decoder7448_3_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_3" PORT="g"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/display_select_6" HWVERSION="1.0" INSTANCE="display_select_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="display_select" VLNV="xilinx.com:user:display_select:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_display_select_6_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="AN0" SIGIS="undef" SIGNAME="External_Ports_AN0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN1" SIGIS="undef" SIGNAME="External_Ports_AN1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN2" SIGIS="undef" SIGNAME="External_Ports_AN2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="AN3" SIGIS="undef" SIGNAME="External_Ports_AN3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="a" SIGIS="undef" SIGNAME="display_select_6_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="Decoder7448_0_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="undef" SIGNAME="Decoder7448_2_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="undef" SIGNAME="Decoder7448_1_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a4" SIGIS="undef" SIGNAME="Decoder7448_3_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_3" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_0" HWVERSION="1.0" INSTANCE="xup_and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_xup_and2_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_1" HWVERSION="1.0" INSTANCE="xup_and2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_xup_and2_1_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_2" HWVERSION="1.0" INSTANCE="xup_and2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_xup_and2_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_3" HWVERSION="1.0" INSTANCE="xup_and2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_xup_and2_3_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_4" HWVERSION="1.0" INSTANCE="xup_and2_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_xup_and2_4_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_4_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_0" HWVERSION="1.0" INSTANCE="xup_and3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_xup_and3_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_inv_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_1" HWVERSION="1.0" INSTANCE="xup_and3_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_xup_and3_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_inv_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_inv_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_0" PORT="BCD_D"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_inv_0" HWVERSION="1.0" INSTANCE="xup_inv_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_xup_inv_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_0" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and2_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_inv_1" HWVERSION="1.0" INSTANCE="xup_inv_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_xup_inv_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_0" PORT="c"/>
+            <CONNECTION INSTANCE="xup_and3_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_inv_2" HWVERSION="1.0" INSTANCE="xup_inv_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_xup_inv_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="S3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or2_0" HWVERSION="1.0" INSTANCE="xup_or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_xup_or2_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_and2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and2_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_2" PORT="BCD_A"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or2_1" HWVERSION="1.0" INSTANCE="xup_or2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_xup_or2_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_and2_4_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_4" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_0" PORT="BCD_C"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or2_2" HWVERSION="1.0" INSTANCE="xup_or2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="binary_2_segment_xup_or2_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Decoder7448_0" PORT="BCD_B"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

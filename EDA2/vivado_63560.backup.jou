@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Dec 14 09:49:34 2021
+# Process ID: 63560
+# Current directory: C:/Users/weibc19/Desktop/EDA_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent51528 C:\Users\weibc19\Desktop\EDA_2\EDA_2.xpr
+# Log file: C:/Users/weibc19/Desktop/EDA_2/vivado.log
+# Journal file: C:/Users/weibc19/Desktop/EDA_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/weibc19/Desktop/EDA_2/EDA_2.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top_module_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source top_module_tb.tcl
+close_sim

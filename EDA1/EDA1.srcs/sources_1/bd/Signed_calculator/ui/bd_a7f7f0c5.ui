@@ -1,0 +1,58 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"2.0",
+   "Default View_TopLeft":"-303,-26",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_GND -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port port-id_Sign_a -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port port-id_Sign_b -pg 1 -lvl 0 -x 0 -y 320 -defaultsOSRD
+preplace port port-id_a1 -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port port-id_a2 -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace port port-id_a3 -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace port port-id_b1 -pg 1 -lvl 0 -x 0 -y 340 -defaultsOSRD
+preplace port port-id_b2 -pg 1 -lvl 0 -x 0 -y 360 -defaultsOSRD
+preplace port port-id_b3 -pg 1 -lvl 0 -x 0 -y 380 -defaultsOSRD
+preplace port port-id_Sign -pg 1 -lvl 4 -x 660 -y 170 -defaultsOSRD
+preplace port port-id_S1 -pg 1 -lvl 4 -x 660 -y 250 -defaultsOSRD
+preplace port port-id_S2 -pg 1 -lvl 4 -x 660 -y 270 -defaultsOSRD
+preplace port port-id_S3 -pg 1 -lvl 4 -x 660 -y 290 -defaultsOSRD
+preplace port port-id_S4 -pg 1 -lvl 4 -x 660 -y 310 -defaultsOSRD
+preplace inst Adder_5_0 -pg 1 -lvl 2 -x 350 -y 300 -defaultsOSRD
+preplace inst input_5_complementor_0 -pg 1 -lvl 1 -x 120 -y 120 -defaultsOSRD
+preplace inst input_5_complementor_1 -pg 1 -lvl 1 -x 120 -y 360 -defaultsOSRD
+preplace inst input_5_complementor_2 -pg 1 -lvl 3 -x 540 -y 290 -defaultsOSRD
+preplace netloc GND_1 1 0 3 20 240 250 140 440
+preplace netloc Sign_a_1 1 0 1 NJ 80
+preplace netloc Sign_b_1 1 0 1 NJ 320
+preplace netloc a1_1 1 0 1 NJ 100
+preplace netloc a2_1 1 0 1 NJ 120
+preplace netloc a3_1 1 0 1 NJ 140
+preplace netloc b1_1 1 0 1 NJ 340
+preplace netloc b2_1 1 0 1 NJ 360
+preplace netloc b3_1 1 0 1 NJ 380
+preplace netloc input_5_complementor_0_S1 1 1 1 270 80n
+preplace netloc input_5_complementor_0_S2 1 1 1 260 100n
+preplace netloc input_5_complementor_0_S3 1 1 1 240 120n
+preplace netloc input_5_complementor_0_S4 1 1 1 230 140n
+preplace netloc input_5_complementor_0_S5 1 1 1 220 160n
+preplace netloc input_5_complementor_1_S1 1 1 1 N 320
+preplace netloc input_5_complementor_1_S2 1 1 1 N 340
+preplace netloc input_5_complementor_1_S3 1 1 1 N 360
+preplace netloc input_5_complementor_1_S4 1 1 1 N 380
+preplace netloc input_5_complementor_1_S5 1 1 1 N 400
+preplace netloc Adder_5_0_S1 1 2 1 N 270
+preplace netloc Adder_5_0_S2 1 2 1 N 290
+preplace netloc Adder_5_0_S3 1 2 1 N 310
+preplace netloc Adder_5_0_S4 1 2 1 N 330
+preplace netloc Adder_5_0_S5 1 2 2 430 170 NJ
+preplace netloc input_5_complementor_2_S1 1 3 1 NJ 250
+preplace netloc input_5_complementor_2_S2 1 3 1 NJ 270
+preplace netloc input_5_complementor_2_S3 1 3 1 NJ 290
+preplace netloc input_5_complementor_2_S4 1 3 1 NJ 310
+levelinfo -pg 1 0 120 350 540 660
+pagesize -pg 1 -db -bbox -sgen -100 0 740 480
+"
+}
+

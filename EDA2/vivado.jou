@@ -1,0 +1,170 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Dec 14 14:49:07 2021
+# Process ID: 15236
+# Current directory: C:/Users/weibc/Desktop/EDA_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26012 C:\Users\weibc\Desktop\EDA_2\EDA_2.xpr
+# Log file: C:/Users/weibc/Desktop/EDA_2/vivado.log
+# Journal file: C:/Users/weibc/Desktop/EDA_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/weibc/Desktop/EDA_2/EDA_2.xpr
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/LED_test_2.xdc]
+set_property is_enabled true [get_files  C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/LED_test_2.xdc]
+reset_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+open_run impl_1
+place_ports {bcd0[3]} R2
+place_ports {bcd0[2]} T1
+place_ports {bcd0[1]} U1
+place_ports {bcd0[0]} W2
+place_ports {bcd1[3]} R3
+place_ports {bcd1[2]} T2
+place_ports {bcd1[1]} T3
+place_ports {bcd1[0]} V2
+place_ports {bcd2[3]} W13
+startgroup
+set_property package_pin "" [get_ports [list  {Anode_Activate[0]}]]
+place_ports {bcd2[2]} W4
+endgroup
+place_ports {bcd2[2]} W14
+place_ports {Anode_Activate[0]} W4
+place_ports {bcd2[1]} V15
+place_ports {bcd2[0]} W15
+place_ports {bcd3[3]} W17
+place_ports {bcd3[2]} W16
+place_ports {bcd3[1]} V16
+place_ports {bcd3[0]} V17
+set_property target_constrs_file C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/constrs_1/new/LED_test_2.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/weibc/Desktop/EDA_2/EDA_2.runs/impl_1/display_LED.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/weibc/Desktop/EDA_2/EDA_2.runs/impl_1/display_LED.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_design
+close_hw_manager
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top_module_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top time_calculator_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source time_calculator_tb.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top_module_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim
+launch_simulation
+source top_module_tb.tcl
+close_sim

@@ -1,0 +1,20 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+C:/Users/weibc/Desktop/EDA_2/EDA_2.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sim_1/new/monostable_tb.v,1639619921,verilog,,,,monostable_tb,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sim_1/new/time_calculator_tb.v,1639480743,verilog,,,,time_calculator_tb,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sim_1/new/top_module_tb.v,1639486079,verilog,,,,top_module_tb,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/BCD_2_binary.v,1639476639,verilog,,C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/add3.v,,BCD_2_binary,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/Keypad.v,1639549754,verilog,,C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/add3.v,,Keypad,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/add3.v,1639491824,verilog,,C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/binary_2_BCD.v,,add3,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/binary_2_BCD.v,1639269539,verilog,,C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/counter_clk_generator.v,,binary_2_BCD,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/counter_clk_generator.v,1639619810,verilog,,C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/monostable.v,,counter_clk_generator,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/display_LED.v,1639526913,verilog,,C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keyboard_2_bcd.v,,display_LED,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keyboard_2_bcd.v,1639555760,verilog,,C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/monostable.v,,keyboard_2_bcd,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keypad_clk_generator.v,1639046324,verilog,,C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keypad_scan.v,,keypad_clk_generator,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/keypad_scan.v,1638442381,verilog,,C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/monostable.v,,keypad_scan,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/monostable.v,1639620124,verilog,,C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sim_1/new/monostable_tb.v,,monostable,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/time_calculator.v,1639618342,verilog,,C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sim_1/new/time_calculator_tb.v,,time_calculator,,,,,,,,
+C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sources_1/new/top_module.v,1639489355,verilog,,C:/Users/weibc/Desktop/EDA_2/EDA_2.srcs/sim_1/new/top_module_tb.v,,top_module,,,,,,,,

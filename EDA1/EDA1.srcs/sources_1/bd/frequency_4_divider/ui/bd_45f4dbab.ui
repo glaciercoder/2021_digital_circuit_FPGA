@@ -1,0 +1,44 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"2.0",
+   "Default View_TopLeft":"-127,-6",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_CLK -pg 1 -lvl 0 -x -10 -y 300 -defaultsOSRD
+preplace port port-id_GND -pg 1 -lvl 0 -x -10 -y 340 -defaultsOSRD
+preplace port port-id_AN2 -pg 1 -lvl 6 -x 1010 -y 450 -defaultsOSRD
+preplace port port-id_AN1 -pg 1 -lvl 6 -x 1010 -y 310 -defaultsOSRD
+preplace port port-id_AN0 -pg 1 -lvl 6 -x 1010 -y 190 -defaultsOSRD
+preplace port port-id_AN3 -pg 1 -lvl 6 -x 1010 -y 70 -defaultsOSRD
+preplace inst decimal_counter_0 -pg 1 -lvl 1 -x 130 -y 350 -defaultsOSRD
+preplace inst decimal_counter_1 -pg 1 -lvl 2 -x 360 -y 410 -defaultsOSRD
+preplace inst xup_inv_0 -pg 1 -lvl 3 -x 560 -y 440 -defaultsOSRD
+preplace inst xup_inv_1 -pg 1 -lvl 3 -x 560 -y 320 -defaultsOSRD
+preplace inst xup_nor2_0 -pg 1 -lvl 4 -x 740 -y 190 -defaultsOSRD
+preplace inst xup_and2_0 -pg 1 -lvl 4 -x 740 -y 310 -defaultsOSRD
+preplace inst xup_and2_1 -pg 1 -lvl 4 -x 740 -y 450 -defaultsOSRD
+preplace inst xup_and2_2 -pg 1 -lvl 4 -x 740 -y 70 -defaultsOSRD
+preplace inst xup_inv_2 -pg 1 -lvl 5 -x 910 -y 70 -defaultsOSRD
+preplace inst xup_inv_3 -pg 1 -lvl 5 -x 910 -y 190 -defaultsOSRD
+preplace inst xup_inv_4 -pg 1 -lvl 5 -x 910 -y 310 -defaultsOSRD
+preplace inst xup_inv_5 -pg 1 -lvl 5 -x 910 -y 450 -defaultsOSRD
+preplace netloc CLK_1 1 0 1 NJ 300
+preplace netloc GND_1 1 0 2 10 460 250
+preplace netloc decimal_counter_0_qa 1 0 4 20 470 240 290 480 260 640
+preplace netloc decimal_counter_1_qa 1 1 3 250 300 470 380 650
+preplace netloc xup_and2_0_y 1 4 1 NJ 310
+preplace netloc xup_and2_1_y 1 4 1 NJ 450
+preplace netloc xup_and2_2_y 1 4 1 NJ 70
+preplace netloc xup_inv_0_y 1 3 1 NJ 440
+preplace netloc xup_inv_1_y 1 3 1 NJ 320
+preplace netloc xup_inv_2_y 1 5 1 NJ 70
+preplace netloc xup_inv_3_y 1 5 1 NJ 190
+preplace netloc xup_inv_4_y 1 5 1 NJ 310
+preplace netloc xup_inv_5_y 1 5 1 NJ 450
+preplace netloc xup_nor2_0_y 1 4 1 NJ 190
+levelinfo -pg 1 -10 130 360 560 740 910 1010
+pagesize -pg 1 -db -bbox -sgen -90 0 1090 520
+"
+}
+0

@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"Signed_calculator": {
+			"proto_instances": {
+			}
+		}
+	}
+}

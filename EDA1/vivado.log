@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Dec 14 08:21:34 2021
+# Process ID: 27944
+# Current directory: C:/Users/weibc/Desktop/EDA1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29244 C:\Users\weibc\Desktop\EDA1\EDA1.xpr
+# Log file: C:/Users/weibc/Desktop/EDA1/vivado.log
+# Journal file: C:/Users/weibc/Desktop/EDA1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/weibc/Desktop/EDA1/EDA1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/binary_2_segment'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/Decoder7448'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/display_select'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/frequency_divider'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/frequency_10_divider'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/frequency_4_divider'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/Signed_calculator'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/input_5_complementor'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/Adder_5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/MyIP/Adder_1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/74LSXX_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/weibc/Desktop/EDA1/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1135.754 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/weibc/Desktop/EDA1/EDA1.srcs/sources_1/bd/binary_2_segment/binary_2_segment.bd}
+Reading block design file <C:/Users/weibc/Desktop/EDA1/EDA1.srcs/sources_1/bd/binary_2_segment/binary_2_segment.bd>...
+Adding component instance block -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding component instance block -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding component instance block -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding component instance block -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding component instance block -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding component instance block -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding component instance block -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding component instance block -- xilinx.com:xup:xup_and2:1.0 - xup_and2_3
+Adding component instance block -- xilinx.com:xup:xup_and2:1.0 - xup_and2_4
+Adding component instance block -- xilinx.com:xup:xup_or2:1.0 - xup_or2_0
+Adding component instance block -- xilinx.com:xup:xup_or2:1.0 - xup_or2_1
+Adding component instance block -- xilinx.com:xup:xup_or2:1.0 - xup_or2_2
+Adding component instance block -- xilinx.com:xup:xup_and3:1.0 - xup_and3_1
+Adding component instance block -- xilinx.com:user:display_select:1.0 - display_select_0
+Adding component instance block -- xilinx.com:user:display_select:1.0 - display_select_1
+Adding component instance block -- xilinx.com:user:display_select:1.0 - display_select_2
+Adding component instance block -- xilinx.com:user:display_select:1.0 - display_select_3
+Adding component instance block -- xilinx.com:user:display_select:1.0 - display_select_4
+Adding component instance block -- xilinx.com:user:display_select:1.0 - display_select_5
+Adding component instance block -- xilinx.com:user:display_select:1.0 - display_select_6
+Adding component instance block -- xilinx.com:user:Decoder7448:1.0 - Decoder7448_0
+Adding component instance block -- xilinx.com:user:Decoder7448:1.0 - Decoder7448_1
+Adding component instance block -- xilinx.com:user:Decoder7448:1.0 - Decoder7448_2
+Adding component instance block -- xilinx.com:user:Decoder7448:1.0 - Decoder7448_3
+Successfully read diagram <binary_2_segment> from block design file <C:/Users/weibc/Desktop/EDA1/EDA1.srcs/sources_1/bd/binary_2_segment/binary_2_segment.bd>
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1135.754 ; gain = 0.000
+open_bd_design {C:/Users/weibc/Desktop/EDA1/EDA1.srcs/sources_1/bd/binary_2_segment/binary_2_segment.bd}
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 14 08:23:28 2021...

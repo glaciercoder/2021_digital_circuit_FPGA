@@ -1,0 +1,46 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto e5690c5b735040b5836ce4197d7876a1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Signed_calculator_wrapper_tb_behav xil_defaultlib.Signed_calculator_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.xup_nor2
+Compiling module xil_defaultlib.Adder_1_xup_nor2_0_0
+Compiling module xil_defaultlib.Adder_1_xup_nor2_0_2
+Compiling module xil_defaultlib.Adder_1_xup_nor2_0_3
+Compiling module xil_defaultlib.xup_nor3
+Compiling module xil_defaultlib.Adder_1_xup_nor3_0_0
+Compiling module xil_defaultlib.xup_xor2
+Compiling module xil_defaultlib.Adder_1_xup_xor2_0_0
+Compiling module xil_defaultlib.Adder_1_xup_xor2_0_1
+Compiling module xil_defaultlib.Adder_1
+Compiling module xil_defaultlib.Adder_5_Adder_1_0_1
+Compiling module xil_defaultlib.Adder_5_Adder_1_0_2
+Compiling module xil_defaultlib.Adder_5_Adder_1_0_3
+Compiling module xil_defaultlib.Adder_5_Adder_1_0_4
+Compiling module xil_defaultlib.Adder_5_Adder_1_0_5
+Compiling module xil_defaultlib.Adder_5
+Compiling module xil_defaultlib.Signed_calculator_Adder_5_0_0
+Compiling module xil_defaultlib.input_5_complementor_Adder_1_0_0
+Compiling module xil_defaultlib.input_5_complementor_Adder_1_0_1
+Compiling module xil_defaultlib.input_5_complementor_Adder_1_1_0
+Compiling module xil_defaultlib.input_5_complementor_Adder_1_1_1
+Compiling module xil_defaultlib.input_5_complementor_Adder_1_3_0
+Compiling module xil_defaultlib.input_5_complementor_xup_xor2_0_...
+Compiling module xil_defaultlib.input_5_complementor_xup_xor2_0_...
+Compiling module xil_defaultlib.input_5_complementor_xup_xor2_0_...
+Compiling module xil_defaultlib.input_5_complementor_xup_xor2_0_...
+Compiling module xil_defaultlib.input_5_complementor_xup_xor2_0_...
+Compiling module xil_defaultlib.input_5_complementor
+Compiling module xil_defaultlib.Signed_calculator_input_5_comple...
+Compiling module xil_defaultlib.Signed_calculator_input_5_comple...
+Compiling module xil_defaultlib.Signed_calculator_input_5_comple...
+Compiling module xil_defaultlib.Signed_calculator
+Compiling module xil_defaultlib.Signed_calculator_wrapper
+Compiling module xil_defaultlib.Signed_calculator_wrapper_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Signed_calculator_wrapper_tb_behav
